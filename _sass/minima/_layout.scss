@@ -2,8 +2,8 @@
  * Site header
  */
 .site-header {
-  border-top: 5px solid #1f3d7d;
-  border-bottom: 1px solid #f29d23;
+  border-top: 5px solid $blue-color;
+  border-bottom: 1px solid $orange-color;
   min-height: $spacing-unit * 1.865;
 
   // Positioning context for the mobile navigation icon
@@ -17,7 +17,7 @@
   letter-spacing: -1px;
   margin-bottom: 0;
   float: left;
-  color: #1f3d7d;
+  color: $blue-color;
 
   &,
   &:visited {
@@ -107,7 +107,7 @@
  * Site footer
  */
 .site-footer {
-  border-top: 1px solid #1f3d7d;
+  border-top: 1px solid $blue-color;
   padding: $spacing-unit 0;
 }
 
@@ -182,11 +182,11 @@
 }
 
 .page-heading {
-  @include relative-font-size(2);
+  @include relative-font-size(1.75);
 }
 
 .post-list-heading {
-  @include relative-font-size(1.75);
+  @include relative-font-size(1.5);
 }
 
 .post-list {
@@ -219,12 +219,12 @@
 
 .post-title,
 .post-content h1 {
-  @include relative-font-size(2.625);
+  @include relative-font-size(2.225);
   letter-spacing: -1px;
   line-height: 1;
 
   @include media-query($on-laptop) {
-    @include relative-font-size(2.25);
+    @include relative-font-size(2);
   }
 }
 
