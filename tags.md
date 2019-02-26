@@ -4,7 +4,7 @@ title: Tags
 description: "An archive of posts sorted by tag."
 ---
 
-<ul>
+<ul class="tags">
 {% for tag in site.tags %}
   {% assign t = tag | first %}
   {% assign posts = tag | last %}
