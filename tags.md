@@ -2,7 +2,7 @@
 layout: page
 title: Tags
 description: "An archive of posts sorted by tag."
-permalink: /tag/
+permalink: /tags/
 ---
 
 Click on a tag to see relevant list of posts.
