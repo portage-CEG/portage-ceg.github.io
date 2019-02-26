@@ -7,18 +7,16 @@ permalink: /tags/
 
 Click on a tag to see relevant list of posts.
 
-{% assign sortedTags = site.tags | sort: 'title' %}
-
 <ul class="tags">
-{% for sortedTags in site.tags %}
-  {% assign t = sortedTags | first %}
+{% for tag in site.tags %}
+  {% assign t = tag | sort_natural %}
   <li><a href="/tags/#{{t | downcase | replace:" ","-" }}">{{ t | downcase }}</a></li>
 {% endfor %}
 </ul>
 
 ---
 
-{% for sortedTags in site.tags %}
+{% for tag in site.tags %}
   {% assign t = tag | first %}
   {% assign posts = tag | last %}
 
