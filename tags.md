@@ -9,7 +9,8 @@ Click on a tag to see relevant list of posts.
 
 <ul class="tags">
 {% for tag in site.tags %}
-  {% assign t = tag | sort_natural %}
+  {% assign t = tag %}
+  {% t | sort_natural %}
   <li><a href="/tags/#{{t | downcase | replace:" ","-" }}">{{ t | downcase }}</a></li>
 {% endfor %}
 </ul>
