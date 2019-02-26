@@ -4,20 +4,22 @@ title: Tags
 description: "An archive of posts sorted by tag."
 ---
 
+Click on a tag to see relevant list of posts.
+
 <ul class="tags">
 {% for tag in site.tags %}
   {% assign t = tag | first %}
-  {% assign posts = tag | last %}
-  <li>{{t | downcase | replace:" ","-" }}
+  <li><a href="/tag/#{{t | downcase | replace:" ","-" }}">{{ t | downcase }}</a></li>
 {% endfor %}
 </ul>
 
+---
 
 {% for tag in site.tags %}
   {% assign t = tag | first %}
   {% assign posts = tag | last %}
 
-{{ t | downcase }}
+<h4><a name="{{t | downcase | replace:" ","-" }}"></a><a class="internal" href="/tag/#{{t | downcase | replace:" ","-" }}">{{ t | downcase }}</a></h4>
 <ul>
 {% for post in posts %}
   {% if post.tags contains t %}
@@ -28,4 +30,7 @@ description: "An archive of posts sorted by tag."
   {% endif %}
 {% endfor %}
 </ul>
+
+---
+
 {% endfor %}
