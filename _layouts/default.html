@@ -10,11 +10,17 @@
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
         {{ content }}
-      </div>
-      
+        
+        <!-- HTML elements for search -->
+<input type="text" id="search-input" placeholder="Search blog posts..">
+<ul id="results-container"></ul>
 
-      
-    </main>
+<!-- script pointing to jekyll-search.js -->
+<script src="{{ site.baseurl }}/simple-jekyll-search.min.js"></script>
+        
+        
+      </div>
+      </main>
 
   
     
