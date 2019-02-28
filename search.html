@@ -4,8 +4,15 @@ title: Search
 permalink: /search/
 --- 
 
+<form id="site_search">
 
-<!-- HTML elements for search -->
-<input type="text" id="search-input" placeholder="Search..">
-<ul id="results-container"></ul>
+<p>Searches all content and tags:
+<input id="search" type="text"/></form></p>
 
+<div id="results"></div>
+<ul id="search_results"></ul>
+<script src="{{site.baseurl}}/public/js/elasticlunr.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="{{site.baseurl}}/public/js/search.js"></script>
+
+<hr>
