@@ -2,12 +2,12 @@
 
 This is the repository for the Portage Curation Expert Group [Data Curation Survival Guide](https://portage-ceg.github.io).
 
-* TOC
-{:toc}
-
 ## How to edit this site
 
 This site is rendered by Jekyll. [Alex Gil has written a descriptive tutorial on Jekyll](https://www.chronicle.com/blogs/profhacker/jekyll1/60913), but in a nutshell, it is a 'static site generator' that relies on templates, metadata, and simplified code. 
+
+* [Markdown](#markdown)
+* [Front Matter](#front-matter)
 
 ### Markdown
 
