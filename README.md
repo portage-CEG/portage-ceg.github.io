@@ -13,7 +13,7 @@ This site is rendered by Jekyll. [Alex Gil has written a descriptive tutorial on
 
 ### Markdown
 
-GitHub pages are primarily written in Markdown--a simplified markup language that turns plain text into html. There are a number of different 'flavours' of Markdown, and this site is written in Kramdown. Here's a [Kramdown Cheat Sheet](https://kramdown.gettalong.org/quickref.html). Markdown files can be created right in GitHub, or using your favourite text editor. They **must** be saved with the extension `.md`.
+GitHub pages are primarily written in Markdown--a simplified markup language that turns plain text into html. There are a number of different 'flavours' of Markdown, and this site is written in Kramdown. Here's a [Kramdown Cheat Sheet](https://kramdown.gettalong.org/quickref.html). Markdown files can be created right in GitHub, or using your favourite text editor. They **must** be saved with the extension `.md`. (fun fact: this README is written in [GitHub flavoured Markdown](https://help.github.com/en/articles/basic-writing-and-formatting-syntax), which doesn't have as many options as Kramdown...especially when it comes to the table of contents. Make sure you specify Kramdown if you are searching outside tutorials!)
 
 ### Front matter
 
