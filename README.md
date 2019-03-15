@@ -27,4 +27,12 @@ There are more options available for metadata at the link above, but I'll break 
 - **layout**
     - this tells Jekyll which layout to use, based on pre-defined designs. Most common layouts will be `page` and `post`. Posts are saved for bloglike items and require a date in the filename, formatted like this: `2018-10-05-hosting.md`. Posts dont need a date, but keep the filename simple and direct.
 - **title**
-    - this is the title of the document. This title will appear in the header information (meaning it'll show up in the browser tab). You can also 'call' on this title to have it display in the body of the page itself. More on that later :)
+    - this is the title of the document. This title will appear in the header information (meaning it'll show up in the browser tab). You can also 'call' on this title to have it display in the body of the page itself or in other places. More on that later :)
+- **date**
+    - this is the date the document was created. Like titles, this date field can be called on in the body of the text, and other places.
+- **categories**
+    - this describes the content of the page. There should be fewer categories than tags, and generally a page should only fit into *one* category. Categories can be called on to generate dynamic lists on other pages, populate header bars, or just generally help to organize the information. Categories are not required, and they will appear in the URL. For example, the URL for this page would be `http://portage-ceg.github.io/tutorial/hello-world`
+- **tags**
+    - another way of describing the page. Pages can have multiple tags, just make sure to format them as they are in the example above. This site has a search function that uses tags. They're handy!
+- **permalink**
+    - this is a helpful feature which sets essentially removes the `.html` from the URL. Be **very** careful not to set the same permalink on multiple pages because it will break the site. It's good practice to make the permalink the same as the page title, or a shortened version. See the page URL in the above definition of categories.
