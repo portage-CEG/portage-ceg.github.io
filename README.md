@@ -31,7 +31,7 @@ There are more options available for metadata at the link above, but I'll break 
 - **date**
     - this is the date the document was created. Like titles, this date field can be called on in the body of the text, and other places.
 - **categories**
-    - this describes the content of the page. There should be fewer categories than tags, and generally a page should only fit into *one* category. Categories can be called on to generate dynamic lists on other pages, populate header bars, or just generally help to organize the information. Categories are not required, and they will appear in the URL. For example, the URL for this page would be `http://portage-ceg.github.io/tutorial/hello-world`
+    - this describes the content of the page. There should be fewer categories than tags, and generally a page should only fit into *one* category. Categories can be called on to generate dynamic lists on other pages, populate header bars, or just generally help to organize the information. Categories are not required, and they will appear in the URL. For example, the URL for this page would be `http://portage-ceg.github.io/tutorial/hello-world`. If the page has no set category, the URL would look like this: `http://portage-ceg.github.io/hello-world`.
 - **tags**
     - another way of describing the page. Pages can have multiple tags, just make sure to format them as they are in the example above. This site has a search function that uses tags. They're handy!
 - **permalink**
