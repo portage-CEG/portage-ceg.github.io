@@ -24,8 +24,8 @@ permalink: /hello-world/
 
 There are more options available for metadata at the link above, but I'll break down whats here.
 
-layout
-: this tells Jekyll which layout to use, based on pre-defined designs. Most common layouts will be `page` and `post`. Posts are saved for      bloglike items and require a date in the filename, formatted like this: `2018-10-05-hosting.md`. Posts dont need a date, but keep the     filename simple and direct.
+ layout
+ : this tells Jekyll which layout to use, based on pre-defined designs. Most common layouts will be `page` and `post`. Posts are saved for      bloglike items and require a date in the filename, formatted like this: `2018-10-05-hosting.md`. Posts dont need a date, but keep the     filename simple and direct.
 
-title
-: this is the title of the document. This title will appear in the header information (meaning it'll show up in the browser tab). You can       also 'call' on this title to have it display in the body of the page itself. More on that later :)
+ title
+ : this is the title of the document. This title will appear in the header information (meaning it'll show up in the browser tab). You can       also 'call' on this title to have it display in the body of the page itself. More on that later :)
