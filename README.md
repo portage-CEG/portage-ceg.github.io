@@ -8,6 +8,8 @@ This site is rendered by Jekyll. [Alex Gil has written a descriptive tutorial on
 
 * [Markdown](#markdown)
 * [Front Matter](#front-matter)
+* [Liquid Tags](#liquid-tags)
+* [General Formatting](#general-formatting)
 
 ### Markdown
 
@@ -31,7 +33,7 @@ permalink: /hello-world/
 ---
 ~~~~~
 
-There are more options available for metadata at the link above, but I'll break down whats here.
+There are more options available for metadata at the link above, but I'll break down what's here.
 
 - **layout**
     - this tells Jekyll which layout to use, based on pre-defined designs. Most common layouts will be `page` and `post`. Posts are saved for bloglike items and require a date in the filename, formatted like this: `2018-10-05-hosting.md`. Posts dont need a date, but keep the filename simple and direct.
@@ -40,8 +42,18 @@ There are more options available for metadata at the link above, but I'll break 
 - **date**
     - this is the date the document was created. Like titles, this date field can be called on in the body of the text, and other places.
 - **categories**
-    - this describes the content of the page. There should be fewer categories than tags, and generally a page should only fit into *one* category. Categories can be called on to generate dynamic lists on other pages, populate header bars, or just generally help to organize the information. Categories are not required, and they will appear in the URL. For example, the URL for this page would be `http://portage-ceg.github.io/tutorial/hello-world`. If the page has no set category, the URL would look like this: `http://portage-ceg.github.io/hello-world`.
+    - this describes the content of the page. There should be fewer categories than tags, and generally a page should only fit into *one* category, though multiple categories can be assigned. Categories can be called on to generate dynamic lists on other pages, populate header bars, or just generally help to organize the information. Categories can be used to custommize the URL. For example, the URL for this page could be `http://portage-ceg.github.io/tutorial/hello-world`. If the page has no set category, the URL would look like this: `http://portage-ceg.github.io/hello-world`.
 - **tags**
     - another way of describing the page. Pages can have multiple tags, just make sure to format them as they are in the example above. This site has a search function that uses tags. They're handy!
 - **permalink**
     - this is a helpful feature which sets essentially removes the `.html` from the URL. Be **very** careful not to set the same permalink on multiple pages because it will break the site. It's good practice to make the permalink the same as the page title, or a shortened version. See the page URL in the above definition of categories.
+
+### Liquid Tags
+
+This is probably the most complex part of Jekyll, but luckily, for a simple static site like this, most of the liquid tags have already been placed out-of-site in the templates. [If you want to know more, here is some basic Jekyll documentation on liquid tags](https://jekyllrb.com/docs/variables/) (weird fact: it was created by Shopify!). 
+
+We can use liquid tags to call information from the Front Matter. A tag like `{page.title}` in Markdown will display the title of the page. A tag like `{page.date}`will display the date listed in the Front Matter. 
+
+### General Formatting
+
+Markdown is really easy. Rather than listing everything here, you can check out the [Kramdown Cheat Sheet](https://kramdown.gettalong.org/quickref.html) OR you can look at the *raw* output of this readme file to see how this page has been rendered. To access that, view the file [here](README.md), and click on 'Raw' in the top right corner.
