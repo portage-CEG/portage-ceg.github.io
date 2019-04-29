@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "DCN Curation Resources"
-date:   2019-04-29
+title: "DCN Curation Resources"
+date: 2019-04-29
 categories: 
 tags: checklists + workflows
       software + tools
