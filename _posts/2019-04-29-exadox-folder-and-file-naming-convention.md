@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Exodox Folder and File Naming Convention: 10 Rules for Best Practice"
+title:  "Exadox Folder and File Naming Convention: 10 Rules for Best Practice"
 date:   2019-04-29
 categories: 
 tags: checklists & workflows
       file naming
 ---
-[Folder and File Naming Convention: 10 Rules for Best Practice](http://www.exadox.com/en/articles/file-naming-convention-ten-rules-best-practice) from exadox provides guidelines and explanations for file naming best practices.
+[Folder and File Naming Convention: 10 Rules for Best Practice](http://www.exadox.com/en/articles/file-naming-convention-ten-rules-best-practice) from Exadox provides guidelines and explanations for file naming best practices.
