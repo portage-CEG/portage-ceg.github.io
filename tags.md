@@ -11,7 +11,7 @@ permalink: /tags/
 <div id="tags">
   <ul class="tags">
   {% for tag in tag_words %}
-    <li><a href="#{{ tag | cgi_escape }}">{{ tag }} &raquo; <span>{{ site.tags[tag] | size }}</span></a></li>
+    <li><a href="#{{ tag | cgi_escape | replace: " ","+" }}">{{ tag }} &raquo; <span>{{ site.tags[tag] | size }}</span></a></li>
   {% endfor %}
   </ul>
 
