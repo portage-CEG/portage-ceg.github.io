@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Test Tags
+title: Tags
 description: "An archive of posts sorted by tag."
 permalink: /tags/
 ---
