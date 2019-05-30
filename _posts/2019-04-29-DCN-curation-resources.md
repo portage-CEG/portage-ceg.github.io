@@ -9,7 +9,7 @@ tags: checklists-workflows
       data-appraisal
       data-citation
       research-data-lifecycle
-      scholarly-impact
+      scholarly impact
 --- 
 
 The Data Curation Network [Curation Workflows and Resources page](https://datacurationnetwork.org/resources/) connects to resources and tools that suport each step of the [DCN CURATE process](https://datacurationnetwork.org/home/resources/).
