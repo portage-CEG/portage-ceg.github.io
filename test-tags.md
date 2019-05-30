@@ -8,7 +8,7 @@ description: "An archive of posts sorted by tag."
 {% assign tag_words = site_tags | split:',' | sort %}
 
 <div id="tags">
-  <ul class="tag-box inline">
+  <ul class="tags">
   {% for tag in tag_words %}
     <li><a href="#{{ tag | cgi_escape }}">{{ tag }} &raquo; <span>{{ site.tags[tag] | size }}</span></a></li>
   {% endfor %}
