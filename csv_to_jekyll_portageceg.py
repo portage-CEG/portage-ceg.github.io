@@ -6,6 +6,11 @@
 import csv
 from datetime import datetime
 import os
+import urllib.request
+
+
+# Download the file from `url` and save it locally under `file_name`:
+urllib.request.urlretrieve("https://docs.google.com/spreadsheets/d/1OK5ZNeNVtTARDJx2sdEIj2jri1pWDL6Gs5nq12GLlPw/export?format=csv&gid=1886005994", "Data curation survival guide - ToPublish.csv")
 
 now = datetime.now()
 date_time = now.strftime("%Y-%m-%d")
