@@ -2,7 +2,25 @@
 
 This is the repository for the Portage Curation Expert Group [Data Curation Survival Guide](https://portage-ceg.github.io).
 
-## How to edit this site
+## How to update this site: 
+You do not have to edit anything in this repository! If you'd like to contribute resources, add an entry to [this Google Sheet](https://docs.google.com/spreadsheets/d/1OK5ZNeNVtTARDJx2sdEIj2jri1pWDL6Gs5nq12GLlPw/edit#gid=0). An administrator from the Portage CEG will review the addition. 
+
+### For CEG Admins
+When a new submission arrives, review the submitted information. Some considerations: 
+- Remove any colons (":") from entries in the **Resource Title** field -- this breaks the Jekyll. 
+- The page **permalink** is generated automatically (hidden Column A), and all **tags** are automatically normalized and concatenated into a single comma-separated array (hidden Column F)
+- Ensure that the **Resource Description** field (Column D) is written in Markdown-formatted text, and that the resource URL is included in the text (using proper syntax).  
+
+Once you're ready to publish the entry to the Survival Guide, set the value in the **Ready to Publish** field (Column E) to **YES**. This will make it appear in the [To Publish](https://docs.google.com/spreadsheets/d/1OK5ZNeNVtTARDJx2sdEIj2jri1pWDL6Gs5nq12GLlPw/edit#gid=1886005994) tab. 
+
+To update the Survival guide, run the csv_to_jekyll_portageceg.py script in a local repository, stage, commit, and push the changes to this github repo. The script carries out the following tasks:
+- download the newest version of the ToPublish tab (in .csv format)
+- remove all existing markdown (.md) files in the **_posts/** directory. 
+- create a new markdown file in the **_posts/** directory for each row in the downloaded csv, with proper yaml front matter and body.
+
+That's it! All pages should be automatically updated!
+
+## How this site works
 
 This site is rendered by Jekyll. [Alex Gil has written a descriptive tutorial on Jekyll](https://www.chronicle.com/blogs/profhacker/jekyll1/60913), but in a nutshell, Jekyll is a 'static site generator' that relies on templates, metadata, and simplified code. 
 
