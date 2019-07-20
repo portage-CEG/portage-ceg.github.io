@@ -4,7 +4,7 @@ permalink: bitcurator
 title: BitCurator
 resourceurl: https://bitcurator.net/
 categories: 
-tags: 
+tags: [qualitative data,software and tools,de-identification,sensitive data]
 readytopublish: YES
 date: 2019-07-19
 ---
