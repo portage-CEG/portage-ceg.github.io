@@ -1,0 +1,10 @@
+---
+layout: post 
+pagetitle: data-tree
+title: Data Tree
+resourceurl: https://datatree.org.uk/
+categories: 
+tags: [training course,RDM,policy,data visualization]
+readytopublish: YES
+---
+[Data Tree](https://datatree.org.uk/) provides a free online course with all you need to know for research data management, along with ways to engage and share data with business, policymakers, media and the wider public. The course is especially aimed at postgraduates, PhD students and early career researchers who want to learn research data management skills, but it is for anyone who wants to get the right data habits now, including thinking of end-users of your data. Data Tree is funded by the Natural Environment Research Council (NERC)
