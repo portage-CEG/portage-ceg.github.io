@@ -1,6 +1,6 @@
 ---
 layout: post 
-pagetitle: fairsharing-org
+permalink: fairsharing-org
 title: FAIRsharing.org
 resourceurl: https://fairsharing.org/
 categories: 

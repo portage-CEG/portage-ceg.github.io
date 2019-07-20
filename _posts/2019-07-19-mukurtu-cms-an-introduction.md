@@ -1,6 +1,6 @@
 ---
 layout: post 
-pagetitle: mukurtu-cms-an-introduction
+permalink: mukurtu-cms-an-introduction
 title: Mukurtu CMS - An Introduction
 resourceurl: http://mukurtu.org/
 categories: 

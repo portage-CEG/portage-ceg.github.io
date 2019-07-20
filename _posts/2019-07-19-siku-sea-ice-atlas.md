@@ -1,6 +1,6 @@
 ---
 layout: post 
-pagetitle: siku-sea-ice-atlas
+permalink: siku-sea-ice-atlas
 title: SIKU (Sea Ice) Atlas
 resourceurl: https://sikuatlas.ca/index.html
 categories: 

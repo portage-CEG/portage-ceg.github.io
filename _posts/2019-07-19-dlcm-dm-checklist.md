@@ -1,6 +1,6 @@
 ---
 layout: post 
-pagetitle: dlcm-dm-checklist
+permalink: dlcm-dm-checklist
 title: DLCM DM Checklist
 resourceurl: https://researchdata.epfl.ch/wp-content/uploads/2018/09/DMP-Checklist.pdf
 categories: 

@@ -1,6 +1,6 @@
 ---
 layout: post 
-pagetitle: ands-data-curation-continuum
+permalink: ands-data-curation-continuum
 title: ANDS Data Curation Continuum
 resourceurl: https://www.ands.org.au/guides/curation-continuum
 categories: 

@@ -1,6 +1,6 @@
 ---
 layout: post 
-pagetitle: dcc-data-curation-101
+permalink: dcc-data-curation-101
 title: DCC - Data Curation 101
 resourceurl: http://www.dcc.ac.uk/training/train-the-trainer/dc-101-training-materials
 categories: 

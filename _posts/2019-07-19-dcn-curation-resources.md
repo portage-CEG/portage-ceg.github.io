@@ -1,6 +1,6 @@
 ---
 layout: post 
-pagetitle: dcn-curation-resources
+permalink: dcn-curation-resources
 title: DCN curation resources
 resourceurl: https://datacurationnetwork.org/resources/
 categories: 
