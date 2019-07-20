@@ -5,6 +5,8 @@
 # Import the python library for parsing CSV files.
 import csv
 from datetime import datetime
+import os
+
 now = datetime.now()
 date_time = now.strftime("%Y-%m-%d")
 # Open our data file in read-mode.
@@ -15,6 +17,11 @@ datareader = csv.reader(csvfile, delimiter=',', quotechar='"')
 
 # Empty array for data headings, which we will fill with the first row from our CSV.
 data_headings = []
+
+# Delete all entries in the _posts directory
+filelist = [ f for f in os.listdir("_posts") if f.endswith(".md") ]
+for f in filelist:
+	os.remove(os.path.join("_posts", f))
 
 # Loop through each row...
 for row_index, row in enumerate(datareader):
