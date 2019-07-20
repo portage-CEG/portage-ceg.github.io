@@ -20,6 +20,8 @@ To update the Survival guide, run the csv_to_jekyll_portageceg.py script in a lo
 
 That's it! All pages should be automatically updated!
 
+**Credit:** The csv_to_jekyll_portageceg.py script expands upon the code created by Evan Lovely and described [here](http://www.evanlovely.com/utilities/jekyll/spreadsheet-to-markdown/). 
+
 ## How this site works
 
 This site is rendered by Jekyll. [Alex Gil has written a descriptive tutorial on Jekyll](https://www.chronicle.com/blogs/profhacker/jekyll1/60913), but in a nutshell, Jekyll is a 'static site generator' that relies on templates, metadata, and simplified code. 
