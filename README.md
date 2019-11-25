@@ -25,7 +25,7 @@ Some considerations for cleanup:
 - Ensure that the following fields have the desired information. Edit them, if needed:
   - **Resource Title (for export)** - if editing is required copy (Ctrl+c) and paste as plain text (Ctrl+Shift+v) before editing
   - **Resource URL** - ensure that the link is formatted correctly and works
-  - **Tags (for export)** - should be 
+  - **Tags (for export)** - should be cleaned up, though new entries may have arrived at the end of the list as an "Other" entry. It's good to review these entries every so often to determine whether another tag is required (it can be added to the Google Form question).
   - Ensure the **Resource Description (Markdown supported)** field is written in Markdown-formatted text, and that the resource URL is included in the text (using proper syntax).
 
 ### Updating the survival guide (Site Admins)
