@@ -12,22 +12,22 @@ If you'd like to contribute a resource or tool, perform the following steps:
 - Submit new entries using [this Google Form](http://bit.ly/data-curation-resources). 
 - Submitted entries will populate [this Google Sheet](http://bit.ly/DCSG-submissions), awaiting final review and approval.
 
-### For CEG Admins
+### Reviewing submissions (CEG Admins)
 When a new submission arrives, review the [submitted information](http://bit.ly/DCSG-submissions). Once you're ready to publish the entry to the Survival Guide, set the value in the **Ready to Publish?** field (Column I) to **YES**. This will make it appear in the [To Publish](https://docs.google.com/spreadsheets/d/1OK5ZNeNVtTARDJx2sdEIj2jri1pWDL6Gs5nq12GLlPw/edit#gid=1886005994) tab. 
 <br>
-Some considerations: 
+Some cleanup has been carried out automatically in the sheet: 
+- Colons (":") and forward slashes ("/") are automatically removed from the **Resource Title** field and populated into the **Resource Title (for export)** field, as those special characters make Jekyll do funny things. 
+- The field **pagename** is generated automatically, 
+- Entries in the **Tags** field are automatically normalized and created in the **Tags (for export)** field.
+<br>
+Some considerations for cleanup: 
 - Ensure that the following fields have the desired information. Edit them, if needed:
   - **Resource Title (for export)** - if editing is required copy (Ctrl+c) and paste as plain text (Ctrl+Shift+v) before editing
   - **Resource URL** - ensure that the link is formatted correctly and works
   - **Tags (for export)** - should be 
   - Ensure the **Resource Description (Markdown supported)** field is written in Markdown-formatted text, and that the resource URL is included in the text (using proper syntax).
-<br>  
-Note the following: 
-- Colons (":") and forward slashes ("/") are automatically removed from the **Resource Title** field and populated into the **Resource Title (for export)** field, as those special characters make Jekyll do funny things. 
-- The field **pagename** is generated automatically, 
-- Entries in the **Tags** field are automatically normalized and created in the **Tags (for export)** field.
-<br>
-<br>
+
+### Updating the survival guide (Site Admins)
 To update the Survival guide, run the csv_to_jekyll_portageceg.py script in a local repository, stage, commit, and push the changes to this github repo. The script carries out the following tasks:
 - download the newest version of the ToPublish tab (in .csv format)
 - remove all existing markdown (.md) files in the **_posts/** directory. 
