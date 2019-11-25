@@ -20,8 +20,6 @@ Some cleanup has been carried out automatically in the sheet:
 - Colons (":") and forward slashes ("/") are automatically removed from the **Resource Title** field and populated into the **Resource Title (for export)** field, as those special characters make Jekyll do funny things. 
 - The field **pagename** is generated automatically, 
 - Entries in the **Tags** field are automatically normalized and created in the **Tags (for export)** field.
-<br>
-<br>
 
 Some considerations for cleanup:
 - Ensure that the following fields have the desired information. Edit them, if needed:
