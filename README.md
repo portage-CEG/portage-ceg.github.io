@@ -27,28 +27,22 @@ Some considerations for cleanup:
   - **Tags (for export)** - should be cleaned up, though new entries may have arrived at the end of the list as an "Other" entry. It's good to review these entries every so often to determine whether another tag is required (it can be added to the Google Form question).
   - Ensure the **Resource Description (Markdown supported)** field is written in Markdown-formatted text, and that the resource URL is included in the text (using proper syntax).
 
+
+
 ## Updating the survival guide pages (Site Admins) 
+
 The Python3 script csv_to_jekyll_portageceg.py updates the posts/pages by doing the following:  
 - download the newest version of the ToPublish tab (in .csv format)
 - remove all existing markdown (.md) files in the **_posts/** directory. 
 - create a new markdown file in the **_posts/** directory for each row in the downloaded csv, with proper yaml front matter and body.
 
-As of 28-Feb-2020, the updating process process has been automated on a test basis.  
+As of 28-Feb-2020, this script is run automatically every 10 minutes (on Jay's PC). This is currently taking place on a test basis. Full instructions on the setup for automatic updating is found at the bottom of this document.  
 
-### Committing updates back to GitHub (to update the survival guide)
+Manual updates can be done by performing the following steps:
+- run the csv_to_jekyll_portageceg.py script in a local repository
+- add, commit, and push the changes to this github repo. 
 
-
-
-### Manual updates:
-in a local repository, stage, commit, and push the changes to this github repo. 
-
-To update the Survival guide, run the csv_to_jekyll_portageceg.py script in a local repository, stage, commit, and push the changes to this github repo. The script carries out the following tasks:
-- download the newest version of the ToPublish tab (in .csv format)
-- remove all existing markdown (.md) files in the **_posts/** directory. 
-- create a new markdown file in the **_posts/** directory for each row in the downloaded csv, with proper yaml front matter and body.
-
-
-That's it! All pages should be automatically updated!
+That's it! All pages should be updated!
 
 **Credit:** The csv_to_jekyll_portageceg.py script expands upon the code created by Evan Lovely and described [here](http://www.evanlovely.com/utilities/jekyll/spreadsheet-to-markdown/). 
 
