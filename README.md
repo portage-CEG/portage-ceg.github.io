@@ -27,13 +27,17 @@ Some considerations for cleanup:
   - **Tags (for export)** - should be cleaned up, though new entries may have arrived at the end of the list as an "Other" entry. It's good to review these entries every so often to determine whether another tag is required (it can be added to the Google Form question).
   - Ensure the **Resource Description (Markdown supported)** field is written in Markdown-formatted text, and that the resource URL is included in the text (using proper syntax).
 
-## (Site Admins) Updating the survival guide 
+## Updating the survival guide pages (Site Admins) 
 The Python3 script csv_to_jekyll_portageceg.py updates the posts/pages by doing the following:  
 - download the newest version of the ToPublish tab (in .csv format)
 - remove all existing markdown (.md) files in the **_posts/** directory. 
 - create a new markdown file in the **_posts/** directory for each row in the downloaded csv, with proper yaml front matter and body.
 
-### Automatic updates: 
+As of 28-Feb-2020, the updating process process has been automated on a test basis.  
+
+### Committing updates back to GitHub (to update the survival guide)
+
+
 
 ### Manual updates:
 in a local repository, stage, commit, and push the changes to this github repo. 
