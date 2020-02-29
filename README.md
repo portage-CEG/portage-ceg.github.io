@@ -1,4 +1,4 @@
-# portage-ceg.github.io
+# Portage CEG Data Curation Survival Guide
 
 This is the repository for the Portage Curation Expert Group [Data Curation Survival Guide](https://portage-ceg.github.io) Data Curation Tools & Resources list.
 
