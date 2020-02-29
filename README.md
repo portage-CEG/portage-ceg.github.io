@@ -95,3 +95,14 @@ One way of using liquid tags is to call information from the Front Matter. A tag
 ### General Formatting
 
 Markdown is really easy. Rather than listing everything here, you can check out the [Kramdown Cheat Sheet](https://kramdown.gettalong.org/quickref.html) OR you can look at the *raw* output of this readme file to see how this page has been rendered. To access that, view the file [here](README.md), and click on 'Raw' in the top right corner. You can inspect any page in this repository by looking a the raw contents. This can be especially useful when creating new pages, simply copy and paste from the raw output that you want to emulate, and then fill it in with your own text. 
+
+### Jay's notes to self: 
+What I did to autoschedule updates: 
+- created bash file auto_update.sh
+  - made executable: ```chmod +x auto_update.sh```
+- made python script executable 
+  - ```chmod +x csv_to_jekyll_portageceg.py```
+- created ssh key on local PC. Connected to GitHub. 
+- changed remote from https to git. See [here](https://stackoverflow.com/questions/14762034/push-to-github-without-password-using-ssh-key)
+- cronjobbed auto_update.sh to run every 10 minutes
+
