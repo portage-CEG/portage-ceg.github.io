@@ -27,8 +27,6 @@ Some considerations for cleanup:
   - **Tags (for export)** - should be cleaned up, though new entries may have arrived at the end of the list as an "Other" entry. It's good to review these entries every so often to determine whether another tag is required (it can be added to the Google Form question).
   - Ensure the **Resource Description (Markdown supported)** field is written in Markdown-formatted text, and that the resource URL is included in the text (using proper syntax).
 
-
-
 ## Updating the survival guide pages (Site Admins) 
 
 The Python3 script csv_to_jekyll_portageceg.py updates the posts/pages by doing the following:  
@@ -36,13 +34,14 @@ The Python3 script csv_to_jekyll_portageceg.py updates the posts/pages by doing 
 - remove all existing markdown (.md) files in the **_posts/** directory. 
 - create a new markdown file in the **_posts/** directory for each row in the downloaded csv, with proper yaml front matter and body.
 
-As of 28-Feb-2020, this script is run automatically every 10 minutes (on Jay's PC). This is currently taking place on a test basis. Full instructions on the setup for automatic updating is found at the bottom of this document.  
-
-Manual updates can be done by performing the following steps:
+The full process to update the pages are as follows: 
+- pull changes from the remote repository
 - run the csv_to_jekyll_portageceg.py script in a local repository
 - add, commit, and push the changes to this github repo. 
 
-That's it! All pages should be updated!
+As of 28-Feb-2020, this script is run automatically every 10 minutes (on Jay's PC). This is currently taking place on a test basis. More information on the setup for automatic updating is found at the bottom of this document. 
+
+This process can be run manually on any machine of a user with appropriate push rights.  
 
 **Credit:** The csv_to_jekyll_portageceg.py script expands upon the code created by Evan Lovely and described [here](http://www.evanlovely.com/utilities/jekyll/spreadsheet-to-markdown/). 
 
