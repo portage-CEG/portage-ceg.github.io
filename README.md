@@ -5,14 +5,13 @@ This is the repository for the Portage Curation Expert Group [Data Curation Surv
 ## How to add resources and update this site: 
 Submissions to the list are made through a [Google Form](http://bit.ly/data-curation-resources), which populates a [Google Sheet](http://bit.ly/DCSG-submissions). Members of the Portage Curation Expert Group are responsible for reviewing, editing, and approving entries. Once an item is approved, it appears on the [Data Curation Tools & Resources list](https://portage-ceg.github.io).
 
-
-### Submitting a resource
+## Submitting a resource
 If you'd like to contribute a resource or tool, perform the following steps: 
 - Check the [previous form responses](http://bit.ly/DCSG-submissions) to ensure that your tool/resource has not been previously submitted.
 - Submit new entries using [this Google Form](http://bit.ly/data-curation-resources). 
 - Submitted entries will populate [this Google Sheet](http://bit.ly/DCSG-submissions), awaiting final review and approval.
 
-### Reviewing submissions (CEG Admins)
+## Reviewing submissions (CEG Admins)
 When a new submission arrives, review the [submitted information](http://bit.ly/DCSG-submissions). Once you're ready to publish the entry to the Survival Guide, set the value in the **Ready to Publish?** field (Column I) to **YES**. This will make it appear in the [To Publish](https://docs.google.com/spreadsheets/d/1OK5ZNeNVtTARDJx2sdEIj2jri1pWDL6Gs5nq12GLlPw/edit#gid=1886005994) tab. 
 <br>
 <br>
@@ -28,11 +27,22 @@ Some considerations for cleanup:
   - **Tags (for export)** - should be cleaned up, though new entries may have arrived at the end of the list as an "Other" entry. It's good to review these entries every so often to determine whether another tag is required (it can be added to the Google Form question).
   - Ensure the **Resource Description (Markdown supported)** field is written in Markdown-formatted text, and that the resource URL is included in the text (using proper syntax).
 
-### Updating the survival guide (Site Admins)
+## (Site Admins) Updating the survival guide 
+The Python3 script csv_to_jekyll_portageceg.py updates the posts/pages by doing the following:  
+- download the newest version of the ToPublish tab (in .csv format)
+- remove all existing markdown (.md) files in the **_posts/** directory. 
+- create a new markdown file in the **_posts/** directory for each row in the downloaded csv, with proper yaml front matter and body.
+
+### Automatic updates: 
+
+### Manual updates:
+in a local repository, stage, commit, and push the changes to this github repo. 
+
 To update the Survival guide, run the csv_to_jekyll_portageceg.py script in a local repository, stage, commit, and push the changes to this github repo. The script carries out the following tasks:
 - download the newest version of the ToPublish tab (in .csv format)
 - remove all existing markdown (.md) files in the **_posts/** directory. 
 - create a new markdown file in the **_posts/** directory for each row in the downloaded csv, with proper yaml front matter and body.
+
 
 That's it! All pages should be automatically updated!
 
