@@ -39,7 +39,7 @@ The full process to update the pages are as follows:
 - run the csv_to_jekyll_portageceg.py script in a local repository
 - add, commit, and push the changes to this github repo. 
 
-As of 28-Feb-2020, this script is run automatically every 10 minutes (on Jay's PC). This is currently taking place on a test basis. More information on the setup for automatic updating is found at the bottom of this document. 
+As of 28-Feb-2020, this script is run automatically every 10 minutes. This is currently taking place on Jay's local machine on a test basis. More information on the setup for automatic updating is found at the bottom of this document, and a generic form of the bash script used is included in this repo as ```auto_update-example.sh```.
 
 This process can be run manually on any machine of a user with appropriate push rights.  
 
