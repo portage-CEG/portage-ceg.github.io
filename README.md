@@ -39,7 +39,7 @@ The full process to update the pages are as follows:
 - run the csv_to_jekyll_portageceg.py script in a local repository
 - add, commit, and push the changes to this github repo. 
 
-As of 28-Feb-2020, this script is run automatically every 10 minutes. This is currently taking place on Jay's local machine on a test basis. More information on the setup for automatic updating is found at the bottom of this document, and a generic form of the bash script used is included in this repo as ```auto_update-example.sh```.
+As of 28-Feb-2020, this script is run automatically every 60 minutes. This is currently taking place on Jay's local machine on a test basis. More information on the setup for automatic updating is found at the bottom of this document, and a generic form of the bash script used is included in this repo as ```auto_update-example.sh```.
 
 This process can be run manually on any machine of a user with appropriate push rights.  
 
@@ -112,6 +112,6 @@ What I did to autoschedule updates:
   - ```chmod +x csv_to_jekyll_portageceg.py```
 - created ssh key on local PC. Connected to GitHub. 
 - changed remote from https to git. See [here](https://stackoverflow.com/questions/14762034/push-to-github-without-password-using-ssh-key)
-- cronjobbed auto_update.sh to run every 10 minutes
- - added to /etc/crontab as root: ```*/10 * * * * brodeujj   /media/Stuff/Working/portage-ceg.github.io/auto_update.sh >> /media/Stuff/cronlog_autoupdater2.txt```
+- cronjobbed auto_update.sh to run every 60 minutes
+ - added to /etc/crontab as root: ```0 * * * * brodeujj   /media/Stuff/Working/portage-ceg.github.io/auto_update.sh >> /media/Stuff/cronlog_autoupdater2.txt```
 
