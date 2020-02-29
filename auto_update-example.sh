@@ -5,7 +5,7 @@ cd /media/Stuff/Working/portage-ceg.github.io/
 
 
 echo "Pulling changes"
-git pull -u https://<username>:<password>@github.com/portage-CEG/portage-ceg.github.io.git master
+git pull https://<username>:<password>@github.com/portage-CEG/portage-ceg.github.io.git master
 
 # Run the python script (python3):
 /media/Stuff/Working/portage-ceg.github.io/csv_to_jekyll_portageceg.py
