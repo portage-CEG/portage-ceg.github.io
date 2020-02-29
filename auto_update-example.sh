@@ -1,8 +1,7 @@
 #!/bin/bash
 
-echo "Running survival guide update"
+echo "Running survival guide update at `date -d now`"
 cd /media/Stuff/Working/portage-ceg.github.io/
-
 
 echo "Pulling changes"
 git pull https://<username>:<password>@github.com/portage-CEG/portage-ceg.github.io.git master
