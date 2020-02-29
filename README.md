@@ -100,9 +100,11 @@ Markdown is really easy. Rather than listing everything here, you can check out 
 What I did to autoschedule updates: 
 - created bash file auto_update.sh
   - made executable: ```chmod +x auto_update.sh```
+  - see auto_update-example.sh as an example.
 - made python script executable 
   - ```chmod +x csv_to_jekyll_portageceg.py```
 - created ssh key on local PC. Connected to GitHub. 
 - changed remote from https to git. See [here](https://stackoverflow.com/questions/14762034/push-to-github-without-password-using-ssh-key)
 - cronjobbed auto_update.sh to run every 10 minutes
+ - added to /etc/crontab as root: ```*/10 * * * * brodeujj   /media/Stuff/Working/portage-ceg.github.io/auto_update.sh >> /media/Stuff/cronlog_autoupdater2.txt```
 
