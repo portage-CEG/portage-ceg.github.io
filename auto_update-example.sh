@@ -1,5 +1,6 @@
 #!/bin/bash
 
+echo "=========================="
 echo "Running survival guide update at `date -d now`"
 cd /media/Stuff/Working/portage-ceg.github.io/
 
