@@ -12,7 +12,7 @@ If you'd like to contribute a resource or tool, perform the following steps:
 - Submitted entries will populate [this Google Sheet](http://bit.ly/DCSG-submissions), awaiting final review and approval.
 
 ## Reviewing submissions (CEG Admins)
-When a new submission arrives, review the [submitted information](http://bit.ly/DCSG-submissions). Once you're ready to publish the entry to the Survival Guide, set the value in the **Ready to Publish?** field (Column I) to **YES**. This will make it appear in the [To Publish](https://docs.google.com/spreadsheets/d/1OK5ZNeNVtTARDJx2sdEIj2jri1pWDL6Gs5nq12GLlPw/edit#gid=1886005994) tab. 
+When a new submission arrives, review the [submitted information](http://bit.ly/DCSG-submissions). Once you're ready to publish the entry to the Survival Guide, set the value in the **Ready to Publish?** field (Column I) to **YES**. This will make it appear in the [To Publish](https://docs.google.com/spreadsheets/d/1OK5ZNeNVtTARDJx2sdEIj2jri1pWDL6Gs5nq12GLlPw/edit#gid=1886005994) tab. Entries can be unpublished by setting the value in the **Ready to Publish?** field (Column I) to **NO**
 <br>
 <br>
 Some cleanup has been carried out automatically in the sheet:
