@@ -111,7 +111,5 @@ What JB did to autoschedule updates:
 - made python script executable 
   - ```chmod +x csv_to_jekyll_portageceg.py```
 - created ssh key on local PC. Connected to GitHub. 
-- changed remote from https to git. See [here](https://stackoverflow.com/questions/14762034/push-to-github-without-password-using-ssh-key)
 - cronjobbed auto_update.sh to run every 60 minutes
  - added to /etc/crontab as root: ```0 * * * * <username>   /<path_to_local_repo>/auto_update.sh >> /<path_to_local_repo>/cronlog_autoupdater.txt```
-
