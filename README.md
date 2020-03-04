@@ -113,5 +113,5 @@ What JB did to autoschedule updates:
 - created ssh key on local PC. Connected to GitHub. 
 - changed remote from https to git. See [here](https://stackoverflow.com/questions/14762034/push-to-github-without-password-using-ssh-key)
 - cronjobbed auto_update.sh to run every 60 minutes
- - added to /etc/crontab as root: ```0 * * * * <username>   /media/Stuff/Working/portage-ceg.github.io/auto_update.sh >> /media/Stuff/cronlog_autoupdater2.txt```
+ - added to /etc/crontab as root: ```0 * * * * <username>   /<path_to_local_repo>/auto_update.sh >> /<path_to_local_repo>/cronlog_autoupdater.txt```
 
