@@ -18,8 +18,7 @@ The information presented within is divided into the following sections:
 ## Lifecycle-based guidance
 
 ## Tools and Resources
-
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfhUnD5Glf57XBGpXWpX4XEGmKqSB7_nYZV2Xu0O81jnYJsQg/viewform?embedded=true" width="640" height="600" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+Go [here](/tools-and-resources) to find or submit a resource.
 
 ## Community Q & A
 
