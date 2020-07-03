@@ -1,3 +1,7 @@
+---
+layout: home
+--- 
+
 ## Introduction
 
 This website is a central space for research data management and curation practitioners to share resources related to the practice of data curation. The content of these pages have been provided by the community and curated by members of the Portage Curation Expert Group. 
