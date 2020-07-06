@@ -27,8 +27,6 @@ You can find resources using two methods:
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="{{site.baseurl}}/js/search.js"></script>
 
-</form>
-
 ## Browse by keyword
 
 {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
