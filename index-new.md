@@ -18,7 +18,8 @@ The information presented within is divided into the following sections:
 ## Lifecycle-based guidance
 
 ## Tools and Resources
-Go [here](/tools-and-resources) to find or submit a resource.
+* Browse the [list of resources](/tools-and-resources) that have been submitted by the community. 
+* [Submit additional resouces](/submit-a-resource) to be added to the list.  
 
 ## Community Q & A
 
