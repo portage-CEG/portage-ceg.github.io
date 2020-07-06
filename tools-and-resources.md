@@ -5,7 +5,12 @@ description: "A community-populated list of data curation software and guidance 
 permalink: /tools-and-resources/
 ---
 
-## Find a Resource
+The following resources have been contributed by members of the national curation and data management communities, and reviewed by the Portage Curation Expert Group. Resources are arranged by keywords. 
+
+**Know of a resource that isn't listed (but should be)? Submit it [here](/submit-a-resource).**
+
+
+## Find a resource by keyword
 
 {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
 {% assign tag_words = site_tags | split:',' | sort %}
@@ -28,5 +33,3 @@ permalink: /tools-and-resources/
   {% endunless %}{% endfor %}
 </div>
 
-## Submit a Resource
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfhUnD5Glf57XBGpXWpX4XEGmKqSB7_nYZV2Xu0O81jnYJsQg/viewform?embedded=true" width="640" height="600" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
