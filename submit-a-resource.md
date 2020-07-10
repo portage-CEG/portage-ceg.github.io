@@ -5,7 +5,6 @@ description: "Suggest an addition to the [Tools & Resources page](/tools-and-res
 permalink: /submit-a-resource/
 ---
 
-## To submit a resource
 If you'd like to contribute a resource or tool, perform the following steps: 
 - Check the [previous form responses](http://bit.ly/DCSG-submissions) to ensure that your tool/resource has not been previously submitted.
 - Submit new entries using the form [below](#submit-a-resource) ([or via this Google Form](http://bit.ly/data-curation-resources)). 
