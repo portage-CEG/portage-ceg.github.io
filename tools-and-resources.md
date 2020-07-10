@@ -17,7 +17,7 @@ You can find resources using two methods:
 <form id="site_search">
 
 <p>Searches all content and tags:
-<input id="search" type="text"/></form></p>
+<input id="search" type="text"/></p></form>
 
 <hr>
 
