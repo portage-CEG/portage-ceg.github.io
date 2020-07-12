@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 title: Data Curation Survival Guide
 description: "Curation guidance by and for the community."
 --- 
