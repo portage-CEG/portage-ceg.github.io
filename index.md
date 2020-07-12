@@ -1,8 +1,8 @@
 ---
 layout: default
+title: Data Curation Survival Guide
+description: "Curation guidance by and for the community."
 --- 
-
-## Introduction
 
 This website is a space for research data management and curation practitioners to share resources related to the practice of data curation. The content of these pages has been provided by the community and curated by members of the Portage Curation Expert Group. 
 
