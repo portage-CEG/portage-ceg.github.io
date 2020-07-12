@@ -13,6 +13,5 @@ permalink: /getting-started/
 ## Workflows, checklists, and guides
 * The Data Curation Network's [Curation Workflow page](https://datacurationnetwork.org/resources/) offers a number of valuable data curation materials, including a description of their **CURATED** model (with downloadable [checklists](https://docs.google.com/document/d/1RWt2obXOOeJRRFmVo9VAkl4h41cL33Zm5YYny3hbPZ8/edit)), and their [data curation primers](https://github.com/DataCurationNetwork/data-primers), which provide detailed guidance for curating a wide variety of data types. 
 
-
 ## Other useful resources
 * The [Dryad Templates for Correspondence](http://wiki.datadryad.org/Templates_for_Correspondence) wiki page provides a variety of templates for data curators to use when communicating with data submitters.
