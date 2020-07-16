@@ -28,5 +28,7 @@ In-depth [guidance and resources](/lifecycle-guidance) for data curators to supp
 ## About this site 
 This website is developed and managed by the Portage [Curation Expert Group](https://portagenetwork.ca/network-of-experts/curation-expert-group/) (CEG) for the purpose of building data curation capacity and community across Canada. As part of the broader [Portage Network](https://portagenetwork.ca/), the CEG's mission is to identify, evaluate, and promote best practices in preparing data and metadata for research, dissemination, and preservation in Canada, and strengthen a blossoming national network of data curators. 
 
+**Interested in joining the Canadian Data Curation Community?** Join our [Google Group](https://groups.google.com/forum/#!forum/can-dcn). 
+
 **Interested in helping to develop this site?** Contact [portage@carl-abrc.ca](mailto:portage@carl-abrc.ca).
 
