@@ -5,6 +5,17 @@ description: "Suggest an addition to the [Tools & Resources page](/tools-and-res
 permalink: /submit-a-resource/
 ---
 
+<table style="background-color: #ffff99;">
+<tbody>
+<tr>
+<td>
+<p><span>More about this page:</span></p>
+<p>Submissions go into a review workflow outlined <a href="https://github.com/portage-CEG/portage-ceg.github.io/blob/master/README.md">here</a>. </p>
+</td>
+</tr>
+</tbody>
+</table>
+
 If you'd like to contribute a resource or tool, perform the following steps: 
 - Check the [previous form responses](http://bit.ly/DCSG-submissions) to ensure that your tool/resource has not been previously submitted.
 - Submit new entries using the form [below](#submit-a-resource) ([or via this Google Form](http://bit.ly/data-curation-resources)). 
