@@ -5,6 +5,18 @@ description: "Guidance and resources for getting started with data curation."
 permalink: /getting-started/
 ---
 
+<table style="background-color: #ffff99;">
+<tbody>
+<tr>
+<td>
+<p><span>More about this page:</span></p>
+<p>This content will be created and curated by site admins (e.g. Portage CEG members), and will evolve into a one-stop 'Here's how to get started with data curation' type resource</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
 ## Learning about data curation
 * The [Portage Data Curation Primer](https://portagenetwork.ca/wp-content/uploads/2019/09/Curation_Primer_Aug2019_EN.pdf) provides a two-page introduction to the what, why, who, and how of data curation. 
 * The Digital Curation Centre's [Introduction to Curation](contains a group of briefing papers that offer an introduction to curation)
