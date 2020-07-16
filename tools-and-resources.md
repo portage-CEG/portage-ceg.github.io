@@ -5,6 +5,17 @@ description: "A community-populated list of data curation software and guidance 
 permalink: /tools-and-resources/
 ---
 
+<table style="background-color: #ffff99;">
+<tbody>
+<tr>
+<td>
+<p><span>More about this page:</span></p>
+<p>This page will list all submitted resources that have been reviewed and approved by site admins (workflow outlined <a href="https://github.com/portage-CEG/portage-ceg.github.io/blob/master/README.md">here</a>).</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 **Want to add a resource to this list? Submit it [here](/submit-a-resource).**
 
 The following resources have been contributed by members of the national curation and data management communities, and reviewed by the Portage Curation Expert Group. Resources are arranged by keywords. 
