@@ -23,7 +23,8 @@ permalink: /getting-started/
 * The DCC [Curation Lifecycle Model](https://www.dcc.ac.uk/guidance/curation-lifecycle-model) provides an overview of data curation activities in the context of stages of the research data lifecycle.
 
 ## Workflows, checklists, and guides
-* The US-based [Data Curation Network](http://datacurationnetwork.org/)'s [Curation Workflow page](https://datacurationnetwork.org/resources/) offers a number of valuable data curation materials, including a description of their **CURATED** model (with downloadable [checklists](https://docs.google.com/document/d/1RWt2obXOOeJRRFmVo9VAkl4h41cL33Zm5YYny3hbPZ8/edit)), and their [data curation primers](https://github.com/DataCurationNetwork/data-primers), which provide detailed guidance for curating a wide variety of data types. 
+* The US-based [Data Curation Network](http://datacurationnetwork.org/)'s [Curation Workflow page](https://datacurationnetwork.org/resources/) offers a number of valuable data curation materials, including a description of their **CURATED** model (with downloadable [checklists](https://docs.google.com/document/d/1RWt2obXOOeJRRFmVo9VAkl4h41cL33Zm5YYny3hbPZ8/edit)), and their [data curation primers](https://github.com/DataCurationNetwork/data-primers), which provide detailed guidance for curating a wide variety of data types.
+* Dryad's [Opening Files wiki](http://wiki.datadryad.org/Opening_Files)
 
 ## Corresponding with researchers
 * The [Dryad Templates for Correspondence](http://wiki.datadryad.org/Templates_for_Correspondence) wiki page provides a variety of templates for data curators to use when communicating with data submitters.
