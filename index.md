@@ -6,23 +6,19 @@ description: "Curation guidance by and for the community."
 
 This website is a space for research data management and curation practitioners to share resources related to the practice of data curation. The content of these pages has been provided by the community and curated by members of the Portage Curation Expert Group. 
 
-Content on this site is divided into the following sections: 
-* [Getting started with data curation](#getting-started-with-data-curation): Fundamental resources for beginning to curate data and performing "good enough" data curation. 
-* [Lifecycle-based guidance](#lifecycle-based-guidance): In-depth guidance for curators in support each stage of the research cycle.  
-* [Tools & Resources](#tools-and-resources): A community-populated list of data curation software and guidance materials. 
-* [Community Q & A](#community-q--a): Data curation questions submitted and answered by the data curation community and the Portage Curation Expert Group. 
-
 ## Getting started with data curation
-Need to get up-to-speed with the basics of data curation? Explore the [getting started guide](/getting-started). 
+Need to get up-to-speed with the basics of data curation? Explore the [what is data curation](/what-is-data-curation) page and the [getting started guide](/getting-started) with fundamental resources for new curators. 
 
 ## Lifecycle-based guidance
 In-depth [guidance and resources](/lifecycle-guidance) for data curators to support the various stages of research.
 
 ## Tools and resources
+A community-populated list of data curation software and guidance materials. 
 * Browse the [list of resources](/tools-and-resources) that have been submitted by the community. 
 * [Suggest additional resources](/submit-a-resource) to be added to the list.  
 
 ## Community Q & A
+Data curation questions submitted and answered by the data curation community and the Portage Curation Expert Group. 
 * [Browse the data curation FAQs](/q-and-a) and submit new questions to the community.
 
 ## About this site 
