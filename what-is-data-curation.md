@@ -11,13 +11,13 @@ For further information see the [Getting Started Guide](../getting-started) and 
 
 ### Data Curation: A Brief Guide
 <div style="position:relative;padding-top:56.25%;">
-<iframe src="//docs.google.com/viewer?url=https://github.com/portage-CEG/portage-ceg.github.io/blob/master/assets/doc/Brief_Guide_Curation_August2019_ENFR.pdf?dl=0&hl=en_US&embedded=true" class="gde-frame" style="position:absolute;top:0;left:0;width:100%;height:100%;border:none;" scrolling="no"></iframe>
+<iframe src="//docs.google.com/viewer?url=https://github.com/portage-CEG/portage-ceg.github.io/raw/master/assets/doc/Brief_Guide_Curation_August2019_ENFR.pdf?dl=0&hl=en_US&embedded=true" class="gde-frame" style="position:absolute;top:0;left:0;width:100%;height:100%;border:none;" scrolling="no"></iframe>
 </div>
-[Download PDF](https://github.com/portage-CEG/portage-ceg.github.io/blob/master/assets/doc/Brief_Guide_Curation_August2019_ENFR.pdf)
+[Download PDF](https://github.com/portage-CEG/portage-ceg.github.io/raw/master/assets/doc/Brief_Guide_Curation_August2019_ENFR.pdf)
 <br>
 
 ### Data Curation: A Primer
 <div style="position:relative;padding-top:56.25%;">
-<iframe src="//docs.google.com/viewer?url=https://github.com/portage-CEG/portage-ceg.github.io/blob/master/assets/doc/Curation_Primer_Aug2019_EN.pdf?dl=0&hl=en_US&embedded=true" class="gde-frame" style="position:absolute;top:0;left:0;width:100%;height:100%;border:none;" scrolling="no"></iframe>
+<iframe src="//docs.google.com/viewer?url=https://github.com/portage-CEG/portage-ceg.github.io/raw/master/assets/doc/Curation_Primer_Aug2019_EN.pdf?dl=0&hl=en_US&embedded=true" class="gde-frame" style="position:absolute;top:0;left:0;width:100%;height:100%;border:none;" scrolling="no"></iframe>
 </div>
-[Download PDF](https://github.com/portage-CEG/portage-ceg.github.io/blob/master/assets/doc/Curation_Primer_Aug2019_EN.pdf)
+[Download PDF](https://github.com/portage-CEG/portage-ceg.github.io/raw/master/assets/doc/Curation_Primer_Aug2019_EN.pdf)
