@@ -25,5 +25,9 @@ permalink: /getting-started/
 ## Workflows, checklists, and guides
 * The Data Curation Network's [Curation Workflow page](https://datacurationnetwork.org/resources/) offers a number of valuable data curation materials, including a description of their **CURATED** model (with downloadable [checklists](https://docs.google.com/document/d/1RWt2obXOOeJRRFmVo9VAkl4h41cL33Zm5YYny3hbPZ8/edit)), and their [data curation primers](https://github.com/DataCurationNetwork/data-primers), which provide detailed guidance for curating a wide variety of data types. 
 
-## Other useful resources
+## Corresponding with researchers
 * The [Dryad Templates for Correspondence](http://wiki.datadryad.org/Templates_for_Correspondence) wiki page provides a variety of templates for data curators to use when communicating with data submitters.
+
+## Learn more | Get training
+* [Fundamentals of Research Data Curation](https://www2.archivists.org/prof-education/course-catalog/fundamentals-of-research-data-curation): An introductory webinar by the Society of American Archivists.
+* [Research Data MANTRA](https://mantra.edina.ac.uk/libtraining.html): Comprehensive RDM training provided by EDINA and Data Library, University of Edinburgh in association with the UK Data Archive, Digital Curation Centre (DCC), and Distributed Data Curation Center at the Purdue University Libraries.
