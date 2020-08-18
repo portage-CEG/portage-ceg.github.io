@@ -4,6 +4,8 @@ permalink: loc-recommended-formats-statement
 title: LOC - Recommended Formats Statement
 resourceurl: https://www.loc.gov/preservation/resources/rfs/TOC.html
 categories: 
+ref: 
+lang: en
 tags: [software and tools,reference,file formats,preservation]
 readytopublish: YES
 date: 25/11/2019

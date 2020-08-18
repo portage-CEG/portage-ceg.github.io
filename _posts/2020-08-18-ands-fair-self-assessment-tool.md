@@ -4,6 +4,8 @@ permalink: ands-fair-self-assessment-tool
 title: ANDS FAIR self-assessment tool 
 resourceurl: https://www.ands-nectar-rds.org.au/fair-tool
 categories: 
+ref: 
+lang: en
 tags: [checklists and workflows,FAIR,assessment]
 readytopublish: YES
 date: 25/11/2019

@@ -4,6 +4,8 @@ permalink: mukurtu-cms-an-introduction
 title: Mukurtu CMS - An Introduction
 resourceurl: http://mukurtu.org/
 categories: 
+ref: 
+lang: en
 tags: [software and tools,sensitive data,indigenous knowledge]
 readytopublish: YES
 date: 25/11/2019

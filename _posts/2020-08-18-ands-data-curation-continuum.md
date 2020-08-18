@@ -4,6 +4,8 @@ permalink: ands-data-curation-continuum
 title: ANDS Data Curation Continuum
 resourceurl: https://www.ands.org.au/guides/curation-continuum
 categories: 
+ref: 
+lang: en
 tags: [reference,scholarly communications]
 readytopublish: YES
 date: 25/11/2019

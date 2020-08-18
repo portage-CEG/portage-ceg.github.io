@@ -4,6 +4,8 @@ permalink: dlcm-dm-checklist
 title: DLCM DM Checklist
 resourceurl: https://researchdata.epfl.ch/wp-content/uploads/2018/09/DMP-Checklist.pdf
 categories: 
+ref: 
+lang: en
 tags: [checklists and workflows,data management planning]
 readytopublish: YES
 date: 25/11/2019

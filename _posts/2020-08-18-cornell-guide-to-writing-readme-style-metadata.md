@@ -4,6 +4,8 @@ permalink: cornell-guide-to-writing-readme-style-metadata
 title: Cornell guide to writing readme style metadata
 resourceurl: https://data.research.cornell.edu/content/readme
 categories: 
+ref: 
+lang: en
 tags: [template,documentation,readme files]
 readytopublish: YES
 date: 25/11/2019

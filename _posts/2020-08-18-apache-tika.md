@@ -4,6 +4,8 @@ permalink: apache-tika
 title: Apache Tika
 resourceurl: https://tika.apache.org/
 categories: 
+ref: 
+lang: en
 tags: [metadata,data wrangling,qualitative data,software and tools]
 readytopublish: YES
 date: 25/11/2019

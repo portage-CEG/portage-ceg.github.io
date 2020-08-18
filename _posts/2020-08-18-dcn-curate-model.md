@@ -4,6 +4,8 @@ permalink: dcn-curate-model
 title: DCN CURATE model
 resourceurl: https://datacurationnetwork.org/resources/resources-2/
 categories: 
+ref: 
+lang: en
 tags: [checklists and workflows]
 readytopublish: YES
 date: 25/11/2019

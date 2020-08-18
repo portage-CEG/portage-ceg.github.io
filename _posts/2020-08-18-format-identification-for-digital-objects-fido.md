@@ -4,6 +4,8 @@ permalink: format-identification-for-digital-objects-fido
 title: Format Identification for Digital Objects (FIDO)
 resourceurl: https://github.com/openpreserve/fido
 categories: 
+ref: 
+lang: en
 tags: [file formats,data appraisal]
 readytopublish: YES
 date: 26/11/2019

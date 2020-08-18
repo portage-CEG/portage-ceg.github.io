@@ -4,6 +4,8 @@ permalink: openrefine
 title: OpenRefine
 resourceurl: http://openrefine.org/
 categories: 
+ref: 
+lang: en
 tags: [software and tools,data wrangling,data cleaning,français]
 readytopublish: YES
 date: 25/11/2019

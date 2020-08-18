@@ -4,6 +4,8 @@ permalink: cornell-readme-file-template
 title: Cornell README file template
 resourceurl: https://cornell.app.box.com/v/ReadmeTemplate 
 categories: 
+ref: 
+lang: en
 tags: [template,documentation,software and tools,readme files]
 readytopublish: YES
 date: 25/11/2019
