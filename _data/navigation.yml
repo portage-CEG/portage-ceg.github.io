@@ -1,0 +1,37 @@
+# enables english and french navigation for the site
+
+languages:
+- language: "en"
+  name: "Data Curation Survival Guide"
+  home: "home"
+  url: /en
+  links:
+    - title: "What is Data Curation"
+      url: /en/what-is-data-curation/
+    - title: "Quickstart Guide"
+      url: /en/getting-started/
+    - title: "Lifecycle-Based Guidance"
+      url: /en/lifecycle-guidance/
+    - title: "Tools and Resources"
+      url: /en/tools-and-resources/
+    - title: "Community Q & A"
+      url: /en/q-and-a/
+    - title: "Français"
+      url: /fr/
+- language: "fr"
+  name: "Curation de données"
+  home: "accueil"
+  url: /fr
+  links:
+    - title: "Quel est curation de données?"
+      url: /fr/quel-est-curation-de-donnees/
+    - title: "Guide de démarrage rapide"
+      url: /fr/commencer/
+    - title: "Conseils basés sur le cycle de vie"
+      url: /fr/cycle-de-vie/
+    - title: "Outils et ressources"
+      url: /fr/outils-et-ressources/
+    - title: "Communauté questions et réponses"
+      url: /fr/questions-et-reponses/
+    - title: "English"
+      url: /en/

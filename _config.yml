@@ -26,3 +26,11 @@ defaults:
     values:
       image: true
 
+lang: en
+languages: ["en", "fr"]
+permalink: pretty
+
+collections:
+  posts:
+    output: true
+    permalink: /:categories/:title

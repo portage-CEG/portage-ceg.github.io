@@ -2,7 +2,8 @@
 layout: page
 title: Lifecycle-Based Guidance
 description: "Guidance and resources for each stage of the data lifecycle."
-permalink: /lifecycle-guidance/
+lang: en
+ref: lifecycle
 ---
 
 <table style="background-color: #ffff99;">
@@ -34,4 +35,3 @@ Guidance and resources presented on this page are organized by the following gen
 
 ## Concluding
 *(long-term preservation, study close-down)*
-

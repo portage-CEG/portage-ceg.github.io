@@ -2,7 +2,7 @@
 layout: default
 ---
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
-
+{% include breadcrumbs.html %}
   <header class="post-header">
     <h4 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h4>
     <p class="post-meta">
@@ -19,11 +19,11 @@ layout: default
     {{ content }}
   </div>
 
-  
+
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
-  
+
 <div class="tags">
 Tags:
 {% for tag in page.tags %} <div class='tag'><a href='/tags/#{{tag}}'>{{tag}}</a></div> {% endfor %}

@@ -2,7 +2,8 @@
 layout: page
 title: Tools and Resources  
 description: "A community-populated list of data curation software and guidance materials."
-permalink: /tools-and-resources/
+lang: en
+ref: tools
 ---
 
 <table style="background-color: #ffff99;">
@@ -18,9 +19,9 @@ permalink: /tools-and-resources/
 
 **Want to add a resource to this list? Submit it [here](/submit-a-resource).**
 
-The following resources have been contributed by members of the national curation and data management communities, and reviewed by the Portage Curation Expert Group. Resources are arranged by keywords. 
+The following resources have been contributed by members of the national curation and data management communities, and reviewed by the Portage Curation Expert Group. Resources are arranged by keywords.
 
-You can find resources using two methods: 
+You can find resources using two methods:
 * [Search for resources](#search-for-resources)
 * [Browse resources by keyword](#browse-by-keyword)
 
@@ -60,6 +61,3 @@ You can find resources using two methods:
   </ul>
   {% endunless %}{% endfor %}
 </div>
-
-
-
