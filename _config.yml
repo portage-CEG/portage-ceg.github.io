@@ -11,7 +11,7 @@ author: Portage Curation Expert Group
 #  This is the description of our site. It will appear in the document head meta (for
 #  Google search results) and in the feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://portage-ceg.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://mediagestalt.github.io/test-portage-ceg.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: --
 github_username:  portage-CEG
 
