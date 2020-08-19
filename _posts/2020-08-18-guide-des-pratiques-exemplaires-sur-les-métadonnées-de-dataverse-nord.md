@@ -4,7 +4,7 @@ permalink: guide-des-pratiques-exemplaires-sur-les-métadonnées-de-dataverse-no
 title: Guide des pratiques exemplaires sur les métadonnées de Dataverse Nord
 resourceurl: https://portagenetwork.ca/wp-content/uploads/2019/04/DVN-Metadata_FR.pdf
 categories: 
-ref: 
+ref: dataverse-best-practice
 lang: fr
 tags: [data repositories,Dataverse,metadata]
 readytopublish: YES
