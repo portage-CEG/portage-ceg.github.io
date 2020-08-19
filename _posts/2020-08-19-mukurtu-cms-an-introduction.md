@@ -3,7 +3,7 @@ layout: post
 permalink: mukurtu-cms-an-introduction
 title: Mukurtu CMS - An Introduction
 resourceurl: http://mukurtu.org/
-categories: 
+categories: []
 ref: 
 lang: en
 tags: [software and tools,sensitive data,indigenous knowledge]

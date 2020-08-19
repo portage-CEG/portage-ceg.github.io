@@ -3,7 +3,7 @@ layout: post
 permalink: cornell-guide-to-writing-readme-style-metadata
 title: Cornell guide to writing readme style metadata
 resourceurl: https://data.research.cornell.edu/content/readme
-categories: 
+categories: []
 ref: 
 lang: en
 tags: [template,documentation,readme files]

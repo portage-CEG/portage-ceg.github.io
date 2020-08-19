@@ -3,7 +3,7 @@ layout: post
 permalink: fairsharing-org
 title: FAIRsharing.org
 resourceurl: https://fairsharing.org/
-categories: 
+categories: []
 ref: 
 lang: en
 tags: [metadata standards,databases,data collections,policies]

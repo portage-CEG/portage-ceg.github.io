@@ -3,7 +3,7 @@ layout: post
 permalink: dcn-data-curation-tools-list
 title: DCN Data Curation Tools List
 resourceurl: https://docs.google.com/spreadsheets/d/1X1MNEDn20pGTsuPQaWf5ZZDpQ6Gzt6TXLK0eU9iqOMU/edit#gid=0
-categories: 
+categories: []
 ref: 
 lang: en
 tags: [software and tools,list]
