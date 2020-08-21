@@ -17,7 +17,7 @@ ref: tools
 </tbody>
 </table>
 
-**Want to add a resource to this list? Submit it [here](/submit-a-resource).**
+**Want to add a resource to this list? Submit it [here]({% link en/tools-and-resources/submit-a-resource.md %}).**
 
 The following resources have been contributed by members of the national curation and data management communities, and reviewed by the Portage Curation Expert Group. Resources are arranged by keywords.
 

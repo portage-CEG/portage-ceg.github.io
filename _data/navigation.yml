@@ -6,7 +6,7 @@ languages:
   home: "home"
   url: /en
   links:
-    - title: "What is Data Curation"
+    - title: "What is Data Curation?"
       url: /en/what-is-data-curation/
     - title: "Quickstart Guide"
       url: /en/getting-started/

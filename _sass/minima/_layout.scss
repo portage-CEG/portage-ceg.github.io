@@ -1,4 +1,18 @@
 /**
+ * Splash page
+ */
+
+
+.splash {
+  position: fixed;
+  text-align: center;
+  font-size: 200%;
+  width: 100%;
+  padding: 150px 30px 30px;
+}
+
+
+/**
  * Site header
  */
 .site-header {
@@ -27,7 +41,7 @@
 
 .site-nav {
   float: right;
-  line-height: $base-line-height * $base-font-size * 2.25;
+  line-height: $base-line-height * $base-font-size * 1.25;
 
   .nav-trigger {
       display: none;
@@ -40,6 +54,11 @@
   .page-link {
     color: $text-color;
     line-height: $base-line-height;
+
+    &:hover {
+      color: darken($brand-color, 15%);
+      text-decoration: none;
+    }
 
     // Gaps between nav items, but not on the last one
     &:not(:last-child) {
@@ -175,7 +194,19 @@
   }
 }
 
+/**
+* Language Selector and Breadcrumbs
+*/
 
+.lang {
+  float: right;
+  padding-right: 1em;
+  padding-top: 0.5em;
+}
+
+#breadcrumbs {
+  padding-bottom: 2em;
+}
 
 /**
  * Page content

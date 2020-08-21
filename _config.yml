@@ -1,21 +1,5 @@
-
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: Data Curation Survival Guide
-email: your-email@example.com
-author: Portage Curation Expert Group
-#description: >- # this means to ignore newlines until "baseurl:"
-#  This is the description of our site. It will appear in the document head meta (for
-#  Google search results) and in the feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://mediagestalt.github.io/test-portage-ceg.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-# twitter_username: --
-github_username:  portage-CEG
-
 # Build settings
+
 markdown: kramdown
 theme: minima
 plugins:
@@ -26,6 +10,17 @@ defaults:
     values:
       image: true
 
+# Site settings
+
+title_en: Data Curation Survival Guide
+title_fr: Curation de données
+author: Portage Curation Expert Group
+url: "https://portage-ceg.github.io"
+email: #
+description: #A simple and awesome blog theme powered by jekyll.
+keywords: # [""]
+
+
 lang: en
 languages: ["en", "fr"]
 permalink: pretty
@@ -34,3 +29,6 @@ collections:
   posts:
     output: true
     permalink: /:categories/:title
+
+social:
+  github_username:  portage-CEG
