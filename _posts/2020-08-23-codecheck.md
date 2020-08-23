@@ -3,7 +3,7 @@ layout: post
 permalink: codecheck
 title: CODECHECK
 resourceurl: https://codecheck.org.uk/
-categories: [Sharing,Archving and Preserving,Reusing]
+categories: [sharing,archving and preserving,reusing]
 ref: 
 lang: en
 tags: [checklists and workflows,FAIR,guidance,software and tools]
