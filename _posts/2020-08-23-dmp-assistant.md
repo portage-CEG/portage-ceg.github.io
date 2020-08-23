@@ -3,7 +3,7 @@ layout: post
 permalink: dmp-assistant
 title: DMP Assistant
 resourceurl: https://assistant.portagenetwork.ca/
-categories: []
+categories: [planning]
 ref: 
 lang: en
 tags: [data management planning,software and tools,template,français]
