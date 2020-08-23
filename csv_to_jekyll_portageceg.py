@@ -61,7 +61,9 @@ for row_index, row in enumerate(datareader):
 			# Compile a line of YAML text from our headings list and the text of the current cell, followed by a linebreak.
 			# Heading text is converted to lowercase. Spaces are converted to underscores and hyphens are removed.
 			# In the cell text, line endings are replaced with commas.
-			if cell_index < len(data_headings)-1:
+			if cell_index == 0:
+				print("")
+			elif cell_index < len(data_headings)-1:
 				cell_heading = data_headings[cell_index].lower().replace(" ", "_").replace("-", "_").replace("%", "percent").replace("$", "").replace(",", "")
 				cell_text = cell_heading + ": " + cell.replace("\n", ", ") + "\n"
 
