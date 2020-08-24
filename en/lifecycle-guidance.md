@@ -18,12 +18,12 @@ ref: lifecycle
 </table>
 
 Guidance and resources presented on this page are organized by the following generalized research stages:
-* [Planning](#planning) (study design, data management planning, research ethics application)
-* [Creating and Analyzing](#creating-and-analyzing) (data collection, analysis, synthesis)
-* [Sharing](#sharing) (publication, data deposit & sharing)
-* [Appraising](#appraising) (data assessment, evaluation, review)
-* [Archiving and Preserving](#archiving-and-preserving) (long-term preservation, study close-down)
-* [Reusing](#reusing) (access, use, reuse and repurpose)
+* [Planning](lifecycle-guidance/planning) (study design, data management planning, research ethics application)
+* [Creating and Analyzing](lifecycle-guidance/creating-and-analyzing) (data collection, analysis, synthesis)
+* [Sharing](lifecycle-guidance/sharing) (publication, data deposit & sharing)
+* [Appraising](lifecycle-guidance/appraising) (data assessment, evaluation, review)
+* [Archiving and Preserving](lifecycle-guidance/archiving-and-preserving) (long-term preservation, study close-down)
+* [Reusing](lifecycle-guidance/reusing) (access, use, reuse and repurpose)
 
 ## Planning
 *(study design, data management planning, research ethics application)*
