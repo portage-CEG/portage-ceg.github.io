@@ -3,7 +3,7 @@ layout: post
 permalink: nlm-scrubber-clinical-text-de-identification
 title: NLM-Scrubber - Clinical Text De-identification
 resourceurl: https://scrubber.nlm.nih.gov/
-categories: []
+categories: [sharing]
 ref: 
 lang: en
 tags: [software and tools,sensitive data,de-identification]

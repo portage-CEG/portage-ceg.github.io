@@ -3,7 +3,7 @@ layout: post
 permalink: dcc-curation-manual
 title: DCC curation manual
 resourceurl: http://www.dcc.ac.uk/resources/curation-reference-manual
-categories: []
+categories: [appraising]
 ref: 
 lang: en
 tags: [checklists and workflows,guidance,metadata,data archiving,data preservation,file formats,ontologies,best practices,data management planning,data appraisal,research data licensing,maintenance and sustainability]

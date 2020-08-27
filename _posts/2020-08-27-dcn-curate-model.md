@@ -3,7 +3,7 @@ layout: post
 permalink: dcn-curate-model
 title: DCN CURATE model
 resourceurl: https://datacurationnetwork.org/resources/resources-2/
-categories: []
+categories: [appraising]
 ref: 
 lang: en
 tags: [checklists and workflows]

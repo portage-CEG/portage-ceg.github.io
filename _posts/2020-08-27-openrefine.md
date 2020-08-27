@@ -3,7 +3,7 @@ layout: post
 permalink: openrefine
 title: OpenRefine
 resourceurl: http://openrefine.org/
-categories: [creating and analyzing]
+categories: [creating and analyzing,sharing,appraising]
 ref: 
 lang: en
 tags: [software and tools,data wrangling,data cleaning,français]
