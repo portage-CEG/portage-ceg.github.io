@@ -3,7 +3,7 @@ layout: post
 permalink: apache-tika
 title: Apache Tika
 resourceurl: https://tika.apache.org/
-categories: []
+categories: [creating and analyzing,appraising]
 ref: 
 lang: en
 tags: [metadata,data wrangling,qualitative data,software and tools]
