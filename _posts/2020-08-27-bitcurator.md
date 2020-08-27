@@ -3,7 +3,7 @@ layout: post
 permalink: bitcurator
 title: BitCurator
 resourceurl: https://bitcurator.net/
-categories: []
+categories: [creating and analyzing,appraising]
 ref: 
 lang: en
 tags: [qualitative data,software and tools,de-identification,sensitive data]
