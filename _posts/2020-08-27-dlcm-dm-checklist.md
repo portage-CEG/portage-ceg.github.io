@@ -3,7 +3,7 @@ layout: post
 permalink: dlcm-dm-checklist
 title: DLCM DM Checklist
 resourceurl: https://researchdata.epfl.ch/wp-content/uploads/2018/09/DMP-Checklist.pdf
-categories: []
+categories: [planning,sharing]
 ref: 
 lang: en
 tags: [checklists and workflows,data management planning]
