@@ -2,7 +2,8 @@
 layout: page
 title: Quickstart Guide
 description: "Guidance and resources for getting started with data curation."
-permalink: /getting-started/
+lang: en
+ref: start
 ---
 
 <table style="background-color: #ffff99;">
@@ -18,7 +19,7 @@ permalink: /getting-started/
 
 
 ## Learning about data curation
-* The [Portage Data Curation Primer](https://portagenetwork.ca/wp-content/uploads/2019/09/Curation_Primer_Aug2019_EN.pdf) provides a two-page introduction to the what, why, who, and how of data curation. 
+* The [Portage Data Curation Primer](https://portagenetwork.ca/wp-content/uploads/2019/09/Curation_Primer_Aug2019_EN.pdf) provides a two-page introduction to the what, why, who, and how of data curation.
 * The UK's [Digital Curation Centre](https://www.dcc.ac.uk/)'s [Introduction to Curation](https://www.dcc.ac.uk/guidance/briefing-papers/introduction-curation) contains a group of briefing papers that offer an introduction to curation.
 * The DCC [Curation Lifecycle Model](https://www.dcc.ac.uk/guidance/curation-lifecycle-model) provides an overview of data curation activities in the context of stages of the research data lifecycle.
 

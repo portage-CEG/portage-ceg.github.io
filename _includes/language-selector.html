@@ -1,0 +1,42 @@
+
+<!---
+<div class=lang>
+
+{% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
+{% for post in posts %}
+
+    <a href="{{ post.url }}" class="{{ post.lang }}"> &nbsp; {{ post.lang }} &nbsp; </a>
+
+{% endfor %}
+
+{% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+{% for page in pages %}
+<a href="{{ page.url }}" class="{{ page.lang }}"> &nbsp; {{ page.lang }} &nbsp;</a>
+{% if pages != site.pages | where:"ref", page.ref %}
+nothing
+{% endif %}
+{% endfor %}
+</div>
+--->
+
+<!--- language selector for posts is not working well. There is no code piece on the post layout --->
+
+<div class=lang>
+
+{% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
+{% for post in posts %}
+    <a href="{{ post.url }}" class="{{ post.lang }}"> &nbsp; {{ post.lang }} &nbsp; </a>
+
+{% endfor %}
+
+
+
+<!--- language selector for pages is working--->
+
+{% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+{% for page in pages %}
+
+    <a href="{{ page.url }}" class="{{ page.lang }}"> &nbsp; {{ page.lang }} &nbsp;</a>
+
+{% endfor %}
+</div>
