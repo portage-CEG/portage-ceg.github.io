@@ -2,7 +2,8 @@
 layout: page
 title: Community Q & A  
 description: "Data curation FAQs provided by the community."
-permalink: /q-and-a/
+lang: en
+ref: questions
 ---
 
 <table style="background-color: #ffff99;">
@@ -19,10 +20,10 @@ permalink: /q-and-a/
 </tbody>
 </table>
 
-These FAQs are based on questions submitted to the community. 
+These FAQs are based on questions submitted to the community.
 
-## Have a question? 
-Submit your questions to the Canadian Data Curation Network via its [Google Group](https://groups.google.com/forum/#!forum/can-dcn). 
+## Have a question?
+Submit your questions to the Canadian Data Curation Network via its [Google Group](https://groups.google.com/forum/#!forum/can-dcn).
 
 ## FAQs
 
@@ -35,4 +36,3 @@ Submit your questions to the Canadian Data Curation Network via its [Google Grou
 **Q: Are the Creative Commons licenses appropriate for software?**
 * The Creative Commons (CC) organization addresses this in their FAQ and recommends against using a CC license for software. CC licenses do not specifically address distribution of source code, or patent rights, and CC licenses are not generally compatible with many existing software licenses. <https://creativecommons.org/faq/#can-i-apply-a-creative-commons-license-to-software>
 * The Open Source Initiative maintains a list of open source licenses that are appropriate for software, which have undergone their ‘License Review Process’ <https://opensource.org/licenses>
-

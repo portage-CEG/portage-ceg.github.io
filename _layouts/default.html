@@ -9,10 +9,9 @@
 
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
+
         {{ content }}
-        
-      
-        
+
        </div>
       </main>
        <script>
@@ -31,15 +30,15 @@
         document.getElementById("main").innerHTML = content.replace(regex, "<mark>$1</mark>");
       }
         </script>
-        
-      
 
-  
-    
+
+
+
+
     {%- include footer.html -%}
 
-    
-    
+
+
   </body>
 
 </html>

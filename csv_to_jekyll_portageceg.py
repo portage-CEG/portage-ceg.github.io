@@ -25,10 +25,15 @@ datareader = csv.reader(csvfile, delimiter=',', quotechar='"')
 # Empty array for data headings, which we will fill with the first row from our CSV.
 data_headings = []
 
-# Delete all entries in the _posts directory
-filelist = [ f for f in os.listdir("_posts") if f.endswith(".md") ]
+# Delete all entries in the fr/outils-et-ressources/_posts directory
+filelist = [ f for f in os.listdir("fr/outils-et-ressources/_posts") if f.endswith(".md") ]
 for f in filelist:
-	os.remove(os.path.join("_posts", f))
+	os.remove(os.path.join("fr/outils-et-ressources/_posts", f))
+
+# Delete all entries in the fr/outils-et-ressources/_posts directory
+filelist = [ f for f in os.listdir("en/tools-and-resources/_posts") if f.endswith(".md") ]
+for f in filelist:
+	os.remove(os.path.join("en/tools-and-resources/_posts", f))
 
 # Loop through each row...
 for row_index, row in enumerate(datareader):
@@ -42,7 +47,7 @@ for row_index, row in enumerate(datareader):
 		# Open a new file with filename based on the first column
 		filename = date_time + '-' + row[0].lower().replace(" county", "").replace(" ", "_") + '.md'
 		print(filename)
-		new_yaml = open("_posts/" + filename, 'w')
+		# new_yaml = open("_posts/" + filename, 'w') # Commented 2020-08-22
 
 		# Empty string that we will fill with YAML formatted text based on data extracted from our CSV.
 		yaml_text = ""
@@ -56,12 +61,20 @@ for row_index, row in enumerate(datareader):
 			# Compile a line of YAML text from our headings list and the text of the current cell, followed by a linebreak.
 			# Heading text is converted to lowercase. Spaces are converted to underscores and hyphens are removed.
 			# In the cell text, line endings are replaced with commas.
-			if cell_index < len(data_headings)-1:
+			if cell_index == 0:
+				print("")
+			elif cell_index < len(data_headings)-1:
 				cell_heading = data_headings[cell_index].lower().replace(" ", "_").replace("-", "_").replace("%", "percent").replace("$", "").replace(",", "")
 				cell_text = cell_heading + ": " + cell.replace("\n", ", ") + "\n"
 
 				# Add this line of text to the current YAML string.
 				yaml_text += cell_text
+				if cell_heading == "lang":
+					if cell == "fr":
+						new_yaml = open("fr/outils-et-ressources/_posts/" + filename, 'w') # added 2020-08-22
+					else:
+						new_yaml = open("en/tools-and-resources/_posts/" + filename, 'w') # added 2020-08-22
+
 			else:
 				# Write our YAML string to the new text file and close it.
 				new_yaml.write(yaml_text + "---\n" + cell)

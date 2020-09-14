@@ -1,0 +1,18 @@
+
+
+<span>
+  {% for item in site.data.navigation.languages %}
+    {% if item.language == page.lang %}
+    {% if page.lang == "fr" %}
+  {% assign months = "Janvier|Février|Mars|Avril|Mai|Juin|Juillet|Août|Septembre|Octobre|Novembre|Décembre" | split: "|" %}
+  {% assign m = page.date | date: "%-m" | minus: 1 %}
+  {% assign day = page.date | date: "%d" %}
+  {% assign month = months[m] %}
+  {% assign year = page.date | date: "%Y" %}
+  {{ month | upcase }} {{ year }}
+  {% else %}
+  {{ page.date | date: "%B %Y" | upcase }}
+  {% endif %}
+  {% endif %}
+  {% endfor %}
+</span>
