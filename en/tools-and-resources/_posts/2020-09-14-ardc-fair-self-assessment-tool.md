@@ -1,6 +1,6 @@
 ---
 layout: post 
-permalink: ardc-fair-self-assessment-tool
+
 title: ARDC FAIR self assessment tool 
 resourceurl: https://ardc.edu.au/resources/working-with-data/fair-data/fair-self-assessment-tool/
 categories: [appraising]

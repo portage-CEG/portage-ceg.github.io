@@ -1,6 +1,6 @@
 ---
 layout: post 
-permalink: bitcurator
+
 title: BitCurator
 resourceurl: https://bitcurator.net/
 categories: [creating and analyzing,appraising]

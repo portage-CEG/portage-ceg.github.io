@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: nlm-scrubber-clinical-text-de-identification
+
 title: NLM-Scrubber - Clinical Text De-identification
 resourceurl: https://scrubber.nlm.nih.gov/
 categories: [sharing]

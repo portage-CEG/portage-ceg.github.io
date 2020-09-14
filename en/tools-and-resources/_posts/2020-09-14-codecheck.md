@@ -1,6 +1,6 @@
 ---
 layout: post 
-permalink: codecheck
+
 title: CODECHECK
 resourceurl: https://codecheck.org.uk/
 categories: [sharing,archving and preserving,reusing]

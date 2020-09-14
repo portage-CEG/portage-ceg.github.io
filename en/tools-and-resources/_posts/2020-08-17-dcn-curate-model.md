@@ -1,6 +1,6 @@
 ---
 layout: post 
-permalink: dcn-curate-model
+
 title: DCN CURATE model
 resourceurl: https://datacurationnetwork.org/resources/resources-2/
 categories: [appraising]

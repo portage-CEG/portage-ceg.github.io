@@ -1,6 +1,6 @@
 ---
 layout: post 
-permalink: dcc-curation-manual
+
 title: DCC curation manual
 resourceurl: http://www.dcc.ac.uk/resources/curation-reference-manual
 categories: [appraising]

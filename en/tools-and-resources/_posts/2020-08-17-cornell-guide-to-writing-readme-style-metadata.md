@@ -1,10 +1,10 @@
 ---
-layout: post 
-permalink: cornell-guide-to-writing-readme-style-metadata
+layout: post
+
 title: Cornell guide to writing readme style metadata
 resourceurl: https://data.research.cornell.edu/content/readme
 categories: [creating and analyzing,sharing]
-ref: 
+ref:
 lang: en
 tags: [template,documentation,readme files]
 readytopublish: YES

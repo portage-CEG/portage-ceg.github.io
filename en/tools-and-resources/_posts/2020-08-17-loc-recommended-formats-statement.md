@@ -1,6 +1,6 @@
 ---
 layout: post 
-permalink: loc-recommended-formats-statement
+
 title: LOC - Recommended Formats Statement
 resourceurl: https://www.loc.gov/preservation/resources/rfs/TOC.html
 categories: [planning,sharing,archiving and preserving]

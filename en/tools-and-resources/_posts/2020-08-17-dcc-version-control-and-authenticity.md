@@ -1,6 +1,6 @@
 ---
 layout: post 
-permalink: dcc-version-control-and-authenticity
+
 title: DCC - Version control and authenticity
 resourceurl: https://www.ukdataservice.ac.uk/manage-data/format/versioning 
 categories: [creating and analyzing,sharing]

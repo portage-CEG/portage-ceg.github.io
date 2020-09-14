@@ -1,6 +1,6 @@
 ---
 layout: post 
-permalink: cornell-readme-file-template
+
 title: Cornell README file template
 resourceurl: https://cornell.app.box.com/v/ReadmeTemplate 
 categories: [creating and analyzing,sharing]

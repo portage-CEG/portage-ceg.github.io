@@ -1,6 +1,6 @@
 ---
 layout: post 
-permalink: openrefine
+
 title: OpenRefine
 resourceurl: http://openrefine.org/
 categories: [creating and analyzing,sharing,appraising]

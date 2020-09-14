@@ -1,6 +1,6 @@
 ---
 layout: post 
-permalink: apache-tika
+
 title: Apache Tika
 resourceurl: https://tika.apache.org/
 categories: [creating and analyzing,appraising]
