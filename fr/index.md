@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Curation de données
+title: Guide de survie pour la curation de données
 description: ""
 lang: fr
 ref: home

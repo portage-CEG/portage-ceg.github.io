@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Q et R communautaires
+title: Réutilisation
 description: ""
 lang: fr
-ref: questions
+ref: reusing
 ---

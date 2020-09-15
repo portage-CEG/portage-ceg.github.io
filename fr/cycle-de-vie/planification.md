@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Q et R communautaires
+title: Planification
 description: ""
 lang: fr
-ref: questions
+ref: planning
 ---

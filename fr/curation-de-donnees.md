@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Quel est curation de données?
+title: Qu’est-ce que la curation de données?
 description: ""
 lang: fr
 ref: data-curation

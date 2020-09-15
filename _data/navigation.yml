@@ -19,19 +19,19 @@ languages:
     - title: "Français"
       url: /fr/
 - language: "fr"
-  name: "Curation de données"
+  name: "Guide de survie pour la curation de données"
   home: "accueil"
   url: /fr
   links:
-    - title: "Quel est curation de données?"
-      url: /fr/quel-est-curation-de-donnees/
-    - title: "Guide de démarrage rapide"
+    - title: "Qu’est-ce que la curation de données?"
+      url: /fr/curation-de-donnees/
+    - title: "Guide de départ accéléré"
       url: /fr/commencer/
-    - title: "Conseils basés sur le cycle de vie"
+    - title: "Directives fondées sur le cycle de vie"
       url: /fr/cycle-de-vie/
     - title: "Outils et ressources"
       url: /fr/outils-et-ressources/
-    - title: "Communauté questions et réponses"
+    - title: "Q et R communautaires"
       url: /fr/questions-et-reponses/
     - title: "English"
       url: /en/

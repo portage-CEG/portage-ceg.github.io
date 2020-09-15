@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Guide de démarrage rapide
+title: Guide de départ accéléré
 description: ""
 lang: fr
 ref: start
