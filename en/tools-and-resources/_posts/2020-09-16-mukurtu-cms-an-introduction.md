@@ -1,10 +1,9 @@
 ---
 layout: post 
-
 title: Mukurtu CMS - An Introduction
 resourceurl: http://mukurtu.org/
 categories: []
-ref: 
+ref: mukurtu-cms-an-introduction
 lang: en
 tags: [software and tools,sensitive data,indigenous knowledge]
 readytopublish: YES

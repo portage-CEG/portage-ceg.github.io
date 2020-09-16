@@ -1,10 +1,9 @@
 ---
 layout: post 
-
 title: Apache Tika
 resourceurl: https://tika.apache.org/
 categories: [creating and analyzing,appraising]
-ref: 
+ref: apache-tika
 lang: en
 tags: [metadata,data wrangling,qualitative data,software and tools]
 readytopublish: YES

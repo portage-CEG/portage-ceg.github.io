@@ -1,10 +1,9 @@
 ---
 layout: post 
-
 title: OpenRefine
 resourceurl: http://openrefine.org/
 categories: [creating and analyzing,sharing,appraising]
-ref: 
+ref: openrefine
 lang: en
 tags: [software and tools,data wrangling,data cleaning,français]
 readytopublish: YES

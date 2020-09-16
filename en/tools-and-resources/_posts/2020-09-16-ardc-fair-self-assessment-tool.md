@@ -1,10 +1,9 @@
 ---
 layout: post 
-
 title: ARDC FAIR self assessment tool 
 resourceurl: https://ardc.edu.au/resources/working-with-data/fair-data/fair-self-assessment-tool/
 categories: [appraising]
-ref: 
+ref: ardc-fair-self-assessment-tool
 lang: en
 tags: [checklists and workflows,FAIR,assessment]
 readytopublish: YES

@@ -1,10 +1,9 @@
 ---
 layout: post 
-
 title: BitCurator
 resourceurl: https://bitcurator.net/
 categories: [creating and analyzing,appraising]
-ref: 
+ref: bitcurator
 lang: en
 tags: [qualitative data,software and tools,de-identification,sensitive data]
 readytopublish: YES

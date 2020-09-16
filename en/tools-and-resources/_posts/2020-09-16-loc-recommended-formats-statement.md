@@ -1,10 +1,9 @@
 ---
 layout: post 
-
 title: LOC - Recommended Formats Statement
 resourceurl: https://www.loc.gov/preservation/resources/rfs/TOC.html
 categories: [planning,sharing,archiving and preserving]
-ref: 
+ref: loc-recommended-formats-statement
 lang: en
 tags: [software and tools,reference,file formats,preservation]
 readytopublish: YES

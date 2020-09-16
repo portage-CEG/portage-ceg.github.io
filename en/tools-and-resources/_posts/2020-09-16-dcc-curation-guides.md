@@ -1,10 +1,9 @@
 ---
 layout: post 
-
 title: DCC curation guides
 resourceurl: http://www.dcc.ac.uk/resources/how-guides
 categories: [appraising]
-ref: 
+ref: dcc-curation-guides
 lang: en
 tags: [checklists and workflows,guidance,list]
 readytopublish: YES

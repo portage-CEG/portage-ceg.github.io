@@ -1,10 +1,9 @@
 ---
 layout: post 
-
 title: DCC - Version control and authenticity
 resourceurl: https://www.ukdataservice.ac.uk/manage-data/format/versioning 
 categories: [creating and analyzing,sharing]
-ref: 
+ref: dcc-version-control-and-authenticity
 lang: en
 tags: [template,version control,software and tools]
 readytopublish: YES

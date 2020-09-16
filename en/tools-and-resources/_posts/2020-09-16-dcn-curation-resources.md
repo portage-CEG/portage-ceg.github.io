@@ -1,10 +1,9 @@
 ---
 layout: post 
-
 title: DCN curation resources
 resourceurl: https://datacurationnetwork.org/resources/
 categories: [appraising]
-ref: 
+ref: dcn-curation-resources
 lang: en
 tags: [checklists and workflows,software and tools,data management planning,data appraisal,data citation,research data licensing,scholarly impact]
 readytopublish: YES

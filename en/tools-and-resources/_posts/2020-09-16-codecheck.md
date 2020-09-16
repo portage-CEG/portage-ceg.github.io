@@ -1,10 +1,9 @@
 ---
 layout: post 
-
 title: CODECHECK
 resourceurl: https://codecheck.org.uk/
 categories: [sharing,archving and preserving,reusing]
-ref: 
+ref: codecheck
 lang: en
 tags: [checklists and workflows,FAIR,guidance,software and tools]
 readytopublish: YES

@@ -1,10 +1,9 @@
 ---
 layout: post 
-
 title: DCN CURATE model
 resourceurl: https://datacurationnetwork.org/resources/resources-2/
 categories: [appraising]
-ref: 
+ref: dcn-curate-model
 lang: en
 tags: [checklists and workflows]
 readytopublish: YES
