@@ -10,7 +10,7 @@ ref: lifecycle
 <tr>
 <td>
 <p><span>More about this page:</span></p>
-<p>This page will likely link out to a number of subpages--each of which contains detailed guidance on curation activities to support each broad stage of the research lifecycle. This content will be curated by site admins. </p>
+<p>Each subpage in this section will contain detailed guidance on curation activities to support each broad stage of the research lifecycle. This content will be curated by site admins. </p>
 <p>In addition, each subpage will list all community-submitted resources that are tagged as relevant to the given stage (we think this will be done via the 'category' field on the Google Sheet of submissions).</p>
 </td>
 </tr>
