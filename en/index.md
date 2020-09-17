@@ -42,4 +42,4 @@ This website is developed and managed by the Portage [Curation Expert Group](htt
 
 **Interested in joining the Canadian Data Curation Community?** Join our [Google Group](https://groups.google.com/forum/#!forum/can-dcn).
 
-**Have feedback about this site? Interested in helping to develop it?** Contact us via [this form](https://forms.gle/4i3VmBK5o228P4pf6).
+**Want to provide feedback about this site? Interested in helping to develop it?** Contact us via [this form](https://forms.gle/4i3VmBK5o228P4pf6).
