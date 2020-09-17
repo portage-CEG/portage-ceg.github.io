@@ -6,7 +6,7 @@ lang: en
 ref: sharing
 ---
 
-(publication, data deposit & sharing)*
+*(publication, data deposit & sharing)*
 
 In this stage, data are prepared for sharing, publishing, and preservation. It is important to consider what data can be shared, and any legal or ethical obligations that may limit how the data can be shared.  The research team may need to select an appropriate disciplinary repository, a generalist repository, or make other arrangements to share their data.
 
