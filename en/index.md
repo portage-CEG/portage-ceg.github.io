@@ -6,6 +6,20 @@ lang: en
 ref: home
 ---
 
+<table style="background-color: #ffff99;">
+<tbody>
+<tr>
+<td>
+<p><span>A note about this website:</span></p>
+<p>This website is in an early proof-of-concept (i.e. alpha release) state, and is being shared for the purposes of demonstrating functionality and soliciting feedback.</p>
+<p>Though bilingual functionality exists, most content has not been translated; should this initiative find support, it will be maintained as a bilingual resource.</p>
+<p>Please see the link at the bottom of this page if you would like to provide feedback or help support it.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
 This website is a space for research data management and curation practitioners to share resources related to the practice of data curation. The content of these pages has been provided by the community and curated by members of the Portage Curation Expert Group.
 
 ## Getting started with data curation
@@ -28,4 +42,4 @@ This website is developed and managed by the Portage [Curation Expert Group](htt
 
 **Interested in joining the Canadian Data Curation Community?** Join our [Google Group](https://groups.google.com/forum/#!forum/can-dcn).
 
-**Interested in helping to develop this site?** Contact [portage@carl-abrc.ca](mailto:portage@carl-abrc.ca).
+**Have feedback about this site? Interested in helping to develop it?** Contact us via [this form](https://forms.gle/4i3VmBK5o228P4pf6).
