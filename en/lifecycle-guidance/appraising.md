@@ -21,3 +21,19 @@ Some of the tasks a curator may perform:
 - Request missing or ambiguous information or changes from data creators
 
 *Tools and resources in the following categories may be helpful:* [assessment](/en/tools-and-resources/#assessment), [best practices](/en/tools-and-resources/#best+practices), [case studies](/en/tools-and-resources/#case+studies), [checklists & workflows](/en/tools-and-resources/#checklists+and+workflows), [codebooks](/en/tools-and-resources/#codebooks), [data appraisal](/en/tools-and-resources/#data+appraisal), [data cleaning](/en/tools-and-resources/#data+cleaning), [data dictionaries](/en/tools-and-resources/#data+dictionaries), [data wrangling](/en/tools-and-resources/#data+wrangling), [de-identification](/en/tools-and-resources/#de-identification), [documentation](/en/tools-and-resources/#documentation), [FAIR](/en/tools-and-resources/#FAIR), [file formats](/en/tools-and-resources/#file+formats), [file naming](/en/tools-and-resources/#file+naming),[Indigenous knowledge](/en/tools-and-resources/#indigenous+knowledge), [metadata](/en/tools-and-resources/#metadata), [metadata standards](/en/tools-and-resources/#metadata+standards), [ontologies](/en/tools-and-resources/#ontologies), [readme files](/en/tools-and-resources/#readme+files), [research data licensing](/en/tools-and-resources/#research+data+licensing), [sensitive data](/en/tools-and-resources/#sensitive+data), [software licensing](/en/tools-and-resources/#research+data+licensing).
+
+
+<ul>
+  {% assign postlang = site.data.navigation.languages %}
+  {% for item in postlang %}
+  {% for post in site.posts %}
+      {% if item.language == page.lang %}
+      {% if post.lang == page.lang %}
+      {% if post.categories contains "appraising" %}
+          <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endif %}
+      {% endif %}
+      {% endif %}
+  {% endfor %}
+  {% endfor %}
+</ul>

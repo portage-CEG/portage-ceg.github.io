@@ -6,7 +6,7 @@ lang: fr
 ref: reusing
 ---
 <ul>
-  {% assign postlang = site.data.navigation.languages %}
+{% assign postlang = site.data.navigation.languages %}
   {% for item in postlang %}
   {% for post in site.posts %}
       {% if item.language == page.lang %}
