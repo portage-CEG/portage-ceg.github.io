@@ -33,7 +33,7 @@ for f in filelist:
 # Delete all entries in the fr/outils-et-ressources/_posts directory
 filelist = [ f for f in os.listdir("en/tools-and-resources/_posts") if f.endswith(".md") ]
 for f in filelist:
-	print(os.path.join("en/tools-and-resources/_posts", f))
+	#print(os.path.join("en/tools-and-resources/_posts", f))
 	os.remove(os.path.join("en/tools-and-resources/_posts", f))
 
 # Loop through each row...
