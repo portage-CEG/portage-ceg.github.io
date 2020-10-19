@@ -1,7 +1,7 @@
 ---
 layout: post 
-title: DCC curation manual
-resourceurl: http://www.dcc.ac.uk/resources/curation-reference-manual
+title: DCC Curation Reference Manual
+resourceurl: https://www.dcc.ac.uk/resources/curation-reference-manual
 categories: [appraising]
 ref: dcc-curation-manual
 lang: en
