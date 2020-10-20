@@ -1,7 +1,7 @@
 ---
 layout: post 
 title: OpenRefine
-resourceurl: http://openrefine.org/
+resourceurl: https://openrefine.org/
 categories: [creating and analyzing,sharing,appraising]
 ref: openrefine
 lang: en

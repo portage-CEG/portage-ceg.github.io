@@ -1,7 +1,7 @@
 ---
 layout: post 
 title: Mukurtu CMS - An Introduction
-resourceurl: http://mukurtu.org/
+resourceurl: https://mukurtu.org/
 categories: []
 ref: mukurtu-cms-an-introduction
 lang: en
