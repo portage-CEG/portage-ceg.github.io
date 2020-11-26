@@ -1,7 +1,7 @@
 ---
 layout: home
-title: Data Curation Survival Guide
-description: "Curation guidance by and for the community."
+title: Data Curation Commons
+description: "Curation resources and guidance by and for the community."
 lang: en
 ref: home
 ---
