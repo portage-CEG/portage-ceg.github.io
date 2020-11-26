@@ -2,7 +2,7 @@
 
 languages:
 - language: "en"
-  name: "Data Curation Survival Guide"
+  name: "Data Curation Commons"
   home: "home"
   url: /en
   links:
