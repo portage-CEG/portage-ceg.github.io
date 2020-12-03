@@ -2,7 +2,7 @@
 layout: post 
 title: SIKU (Sea Ice) Atlas
 resourceurl: https://sikuatlas.ca/index.html
-categories: []
+categories: [creating and analyzing,sharing]
 ref: siku-sea-ice-atlas
 lang: en
 tags: [indigenous knowledge,exemplar]

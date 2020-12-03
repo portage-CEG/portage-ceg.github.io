@@ -2,7 +2,7 @@
 layout: post 
 title: Mukurtu CMS - An Introduction
 resourceurl: https://mukurtu.org/
-categories: []
+categories: [archiving and preserving,sharing]
 ref: mukurtu-cms-an-introduction
 lang: en
 tags: [software and tools,sensitive data,indigenous knowledge]
