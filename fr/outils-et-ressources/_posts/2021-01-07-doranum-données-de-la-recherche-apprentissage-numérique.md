@@ -1,9 +1,9 @@
 ---
 layout: post 
-title: DoRANum (Données de la Recherche : Apprentissage Numérique)
+title: DoRANum (Données de la Recherche - Apprentissage Numérique)
 resourceurl: https://doranum.fr/
 categories: [planning,sharing,creating and analyzing,appraising,archiving and preserving,reusing]
-ref: 
+ref: doranum-données-de-la-recherche-apprentissage-numérique
 lang: fr
 tags: [reference,guidance]
 readytopublish: YES

@@ -1,6 +1,6 @@
 ---
 layout: post 
-title: Boîte à outils pour les données sensibles — destiné aux chercheurs Partie 1 - Glossaire terminologique sur l'utilisation des données sensibles à des fins de recherche
+title: Boîte à outils pour les données sensibles — destiné aux chercheurs Partie 1- Glossaire terminologique sur l'utilisation des données sensibles à des fins de recherche
 resourceurl: https://doi.org/10.5281/zenodo.4088986
 categories: [planning,sharing,creating and analyzing,appraising,archiving and preserving,reusing]
 ref: fr
