@@ -3,7 +3,7 @@ layout: post
 title: Sensitive Data Toolkit for Researchers Part 1 - Glossary of Terms for Sensitive Data used for Research Purposes
 resourceurl: https://doi.org/10.5281/zenodo.4088946
 categories: [planning,sharing,creating and analyzing,appraising,archiving and preserving,reusing]
-ref: en
+ref: sensitive-data-toolkit-for-researchers-part-1-glossary-of-terms-for-sensitive-data-used-for-research-purposes
 lang: en
 tags: [sensitive data,reference]
 readytopublish: YES

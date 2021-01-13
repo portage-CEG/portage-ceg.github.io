@@ -3,7 +3,7 @@ layout: post
 title: Sensitive Data Toolkit for Researchers Part 2 - Human Participant Research Data Risk Matrix
 resourceurl: https://doi.org/10.5281/zenodo.4088954
 categories: [planning,sharing,creating and analyzing,appraising,archiving and preserving,reusing]
-ref: en
+ref: sensitive-data-toolkit-for-researchers-part-2-human-participant-research-data-risk-matrix
 lang: en
 tags: [sensitive data,reference]
 readytopublish: YES

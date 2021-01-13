@@ -3,7 +3,7 @@ layout: post
 title: Sensitive Data Toolkit for Researchers Part 3 - Research Data Management Language for Informed Consent
 resourceurl: https://doi.org/10.5281/zenodo.4107178
 categories: [planning,creating and analyzing]
-ref: en
+ref: sensitive-data-toolkit-for-researchers-part-3-research-data-management-language-for-informed-consent
 lang: en
 tags: [sensitive data,reference]
 readytopublish: YES
