@@ -36,8 +36,6 @@
 
 <div class="trigger">
 
-        {% assign posts = site.posts | where:"ref", page.ref %}
-
         {% for item in mainmenu %}
         {% if item.language == page.lang %}
         {% for link in item.links %}
@@ -53,7 +51,7 @@
         {% endif %}
         {% endfor %}
 
-<!--- The code below controls the language selector at the end of the menu list . Of course, this is only working for pages right now (not posts) --->
+<!--- The code below controls the language selector at the end of the menu list for pages --->
 
         {% assign langmenu = site.data.navigation.languages | where:"opposite", page.lang %}
 
@@ -66,6 +64,20 @@
 
         {% endfor %}
         {% endfor %}
+
+<!--- The code below controls the language selector at the end of the menu list for posts. If a post does not have a translation, the language selector will not show --->
+
+        {% assign postlist = posts | concat: langmenu %}
+        {% for item in postlist %}
+        {% for post in posts %}
+
+        {% if item.language == post.lang %}
+          <a href="{{ post.url }}" class="{{ page.lang }}">{{ post.lang | upcase }}</a>
+        {% endif %}
+
+      {% endfor %}
+      {% endfor %}
+
 
       </div>
       </nav>
