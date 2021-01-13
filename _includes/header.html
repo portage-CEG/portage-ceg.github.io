@@ -1,19 +1,25 @@
 <header class="site-header">
 
   <div class="wrapper">
-    <!---
+    {% assign mainmenu = site.data.navigation.languages %}
+
+    {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+    {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
+
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
     {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
-    --->
 
-    {% for item in site.data.navigation.languages %}
+<!--- The code below displays the page title in English or French, depending on the language indicated in the page metadata --->
+
+    {% for item in mainmenu %}
     {% if item.language == page.lang %}
     <a class="site-title" href="{{ item.url }}/">{{ item.name | escape }}</a>
 
     {% endif %}
     {% endfor %}
 
+<!--- The code below styles the menu into a hamburger selection box for mobile or when the screen size is too small --->
 
     {%- if titles_size > 0 -%}
       <nav class="site-nav">
@@ -26,29 +32,42 @@
           </span>
         </label>
 
-        <div class="trigger">
-          <!---
-          {%- for path in page_paths -%}
-            {%- assign my_page = site.pages | where: "path", path | first -%}
-            {%- if my_page.title -%}
-            <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
-            {%- endif -%}
-          {%- endfor -%}
-          --->
+<!--- The code below displays the menu items in English or French, depending on the language indicated in the page metadata. Menu items are described in data/navigation.yml --->
 
-          {% for item in site.data.navigation.languages %}
-          {% if item.language == page.lang %}
-          {% for link in item.links %}
-            {% if link.url contains "http" %}
-            {% assign url = link.url %}
-            {% else %}
-            {% assign url = link.url | relative_url %}
-            {% endif %}
-            <a class="page-link" href="{{ url }}">{{ link.title }}</a>
-          {% endfor %}
+<div class="trigger">
+
+        {% assign posts = site.posts | where:"ref", page.ref %}
+
+        {% for item in mainmenu %}
+        {% if item.language == page.lang %}
+        {% for link in item.links %}
+
+          {% if link.url contains "http" %}
+          {% assign url = link.url %}
+          {% else %}
+          {% assign url = link.url | relative_url %}
           {% endif %}
-          {% endfor %}
-        </div>
+          <a class="page-link" href="{{ url }}">{{ link.title }}</a>
+
+        {% endfor %}
+        {% endif %}
+        {% endfor %}
+
+<!--- The code below controls the language selector at the end of the menu list . Of course, this is only working for pages right now (not posts) --->
+
+        {% assign langmenu = site.data.navigation.languages | where:"opposite", page.lang %}
+
+        {% for item in langmenu %}
+        {% for page in pages %}
+
+          {% if item.language == page.lang %}
+            <a href="{{ page.url }}" class="{{ page.lang }}">{{ page.lang | upcase }}</a>
+          {% endif %}
+
+        {% endfor %}
+        {% endfor %}
+
+      </div>
       </nav>
     {%- endif -%}
   </div>

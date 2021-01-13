@@ -3,6 +3,8 @@
 <div id="breadcrumbs">
 {% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
 
+<!--- the code below controls the language of the 'home' button on the breadcrumb line. This is calling data from navigation.yml --->
+
 {% for item in site.data.navigation.languages %}
   {% if item.language == page.lang %}
 <a href="{{ site.url }}/{{ page.lang}}">{{ item.home }}</a>

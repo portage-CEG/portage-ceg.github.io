@@ -2,6 +2,7 @@
 
 languages:
 - language: "en"
+  opposite: "fr"
   name: "Data Curation Commons"
   home: "home"
   url: /en
@@ -16,9 +17,10 @@ languages:
       url: /en/tools-and-resources/
     - title: "Community Q & A"
       url: /en/q-and-a/
-    - title: "Français"
-      url: /fr/
+  #  - title: "Français"
+  #    url: /fr/
 - language: "fr"
+  opposite: "en"
   name: "Guide de survie pour la curation de données"
   home: "accueil"
   url: /fr
@@ -33,5 +35,5 @@ languages:
       url: /fr/outils-et-ressources/
     - title: "Q et R communautaires"
       url: /fr/questions-et-reponses/
-    - title: "English"
-      url: /en/
+  #  - title: "English"
+  #    url: /en/

@@ -20,4 +20,4 @@ ref: home
 </table>
 
 
-**Voulez-vous fournir des commentaires sur ce site? Vous souhaitez aider à le développer?** Contactez-nous via [ce formulaire] (https://forms.gle/4i3VmBK5o228P4pf6).
+**Voulez-vous fournir des commentaires sur ce site? Vous souhaitez aider à le développer?** Contactez-nous via [ce formulaire](https://forms.gle/4i3VmBK5o228P4pf6).
