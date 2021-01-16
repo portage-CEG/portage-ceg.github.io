@@ -7,10 +7,8 @@ layout: default
 
   <header class="post-header">
     {% include breadcrumbs.html %}
-
     <h1 class="post-title">{{ page.title | escape }}</h1>
   </header>
-
 
   <div class="post-content">
     {{ content }}
@@ -18,7 +16,19 @@ layout: default
 
 </article>
 
+<!--- the code below displays the tags found in the metadata. The tag links back to it's respective heading on the Tools page. The language switch is hardcoded below with an else if statement --->
+
 <div class="tags">
 Tags:
-{% for tag in page.tags %} <div class='tag'><a href='/en/tools-and-resources/#{{tag}}'>{{tag}}</a></div> {% endfor %}
+  {% for tag in page.tags %}
+  {% if page.lang == "en" %}
+
+    <div class='tag'><a href='/en/tools-and-resources/#{{ tag | replace: " ","-" }}'>{{tag}}</a></div>
+
+  {% elsif page.lang == "fr" %}
+
+    <div class='tag'><a href='/fr/outils-et-ressources/#{{ tag | replace: " ","-" }}'>{{tag}}</a></div>
+
+  {% endif %}
+  {% endfor %}
 </div>

@@ -53,7 +53,7 @@
         {% endif %}
         {% endfor %}
 
-<!--- The code below controls the language selector at the end of the menu list for pages --->
+<!--- The code below controls the language selector at the end of the menu list for PAGES --->
 
         {% assign langmenu = site.data.navigation.languages | where:"opposite", page.lang %}
 
@@ -67,7 +67,7 @@
         {% endfor %}
         {% endfor %}
 
-<!--- The code below controls the language selector at the end of the menu list for posts. If a post does not have a translation, the language selector will not show --->
+<!--- The code below controls the language selector at the end of the menu list for POSTS. If a post does not have a translation, the language selector will not show --->
 
         {% assign postlist = posts | concat: langmenu %}
         {% for item in postlist %}

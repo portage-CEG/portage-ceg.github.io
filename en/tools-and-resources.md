@@ -55,9 +55,13 @@ You can find resources using two methods:
     {% capture this_word %}{{ tag_words[item] | strip_newlines }}{% endcapture %}
   <h3 id="{{ this_word | cgi_escape }}">{{ this_word }}</h3>
   <ul class="posts">
-    {% for post in site.tags[this_word] %}{% if post.title != null %}
-    <li itemscope><a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endif %}{% endfor %}
+    {% for post in site.tags[this_word] %}
+      {% if post.title != null %}
+      {% if post.lang == page.lang %}
+        <li itemscope><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endif %}
+      {% endif %}
+    {% endfor %}
   </ul>
   {% endunless %}{% endfor %}
 </div>
