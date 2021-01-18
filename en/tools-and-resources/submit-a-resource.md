@@ -6,6 +6,8 @@ lang: en
 ref: resource
 ---
 
+<!---
+
 <table style="background-color: #ffff99;">
 <tbody>
 <tr>
@@ -16,6 +18,8 @@ ref: resource
 </tr>
 </tbody>
 </table>
+
+--->
 
 If you'd like to contribute a resource or tool, perform the following steps:
 - Check the [previous form responses](http://bit.ly/DCSG-submissions) to ensure that your tool/resource has not been previously submitted.

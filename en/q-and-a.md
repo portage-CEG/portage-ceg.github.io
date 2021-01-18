@@ -6,6 +6,8 @@ lang: en
 ref: questions
 ---
 
+<!---
+
 <table style="background-color: #ffff99;">
 <tbody>
 <tr>
@@ -19,6 +21,8 @@ ref: questions
 </tr>
 </tbody>
 </table>
+
+--->
 
 These FAQs are based on questions submitted to the community.
 

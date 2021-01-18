@@ -5,6 +5,7 @@ description: "Curation resources and guidance by and for the community."
 lang: en
 ref: home
 ---
+<!---
 
 <table style="background-color: #ffff99;">
 <tbody>
@@ -19,6 +20,7 @@ ref: home
 </tbody>
 </table>
 
+--->
 
 This website is a space for research data management and curation practitioners to share resources related to the practice of data curation. The content of these pages has been provided by the community and curated by members of the Portage Curation Expert Group.
 

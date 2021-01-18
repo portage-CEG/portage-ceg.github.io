@@ -5,6 +5,7 @@ description: "Guidance and resources for getting started with data curation."
 lang: en
 ref: start
 ---
+<!---
 
 <table style="background-color: #ffff99;">
 <tbody>
@@ -17,6 +18,7 @@ ref: start
 </tbody>
 </table>
 
+--->
 
 ## Learning about data curation
 * The [Portage Data Curation Primer](https://portagenetwork.ca/wp-content/uploads/2019/09/Curation_Primer_Aug2019_EN.pdf) provides a two-page introduction to the what, why, who, and how of data curation.

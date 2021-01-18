@@ -6,6 +6,8 @@ lang: en
 ref: tools
 ---
 
+<!---
+
 <table style="background-color: #ffff99;">
 <tbody>
 <tr>
@@ -16,6 +18,8 @@ ref: tools
 </tr>
 </tbody>
 </table>
+
+--->
 
 **Want to add a resource to this list? Submit it [here]({% link en/tools-and-resources/submit-a-resource.md %}).**
 
@@ -41,8 +45,14 @@ You can find resources using two methods:
 
 ## Browse by keyword
 
+<!--- The code below generates the list of tags present in all of the posts --->
+
+<!--- This first chunk of code has to go all together (rather than on separate lines) because it is a capture block --->
 {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
+
 {% assign tag_words = site_tags | split:',' | sort %}
+
+
 
 <div id="tags">
   <ul class="tags">
@@ -50,6 +60,8 @@ You can find resources using two methods:
     <li><a href="#{{ tag | cgi_escape }}">{{ tag }} &raquo; <span>{{ site.tags[tag] | size }}</span></a></li>
   {% endfor %}
   </ul>
+
+<!--- The code below generates the list of posts based on an alphabetical list of tags --->
 
   {% for item in (0..site.tags.size) %}{% unless forloop.last %}
     {% capture this_word %}{{ tag_words[item] | strip_newlines }}{% endcapture %}

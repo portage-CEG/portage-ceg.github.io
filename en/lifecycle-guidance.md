@@ -5,6 +5,8 @@ description: "Guidance and resources for each stage of the data lifecycle."
 lang: en
 ref: lifecycle
 ---
+<!---
+
 <table style="background-color: #ffff99;">
 <tbody>
 <tr>
@@ -16,6 +18,8 @@ ref: lifecycle
 </tr>
 </tbody>
 </table>
+
+--->
 
 Guidance and resources presented on this page are organized by the following generalized research stages:
 * [Planning](planning) (study design, data management planning, research ethics application)
@@ -85,7 +89,7 @@ Ideally data and code that have been published will have a persistent identifier
 
 *Tools and resources in the following categories may be helpful:* [active data management](https://portage-ceg.github.io/tools-and-resources/#active+data+management), [data citation](https://portage-ceg.github.io/tools-and-resources/#data+citation), [data management planning](https://portage-ceg.github.io/tools-and-resources/#data+management+planning), [data reuse](https://portage-ceg.github.io/tools-and-resources/#data+reuse), [data wrangling](https://portage-ceg.github.io/tools-and-resources/#data+wrangling), [qualitative data](https://portage-ceg.github.io/tools-and-resources/#qualitative+data), [quantitative data](https://portage-ceg.github.io/tools-and-resources/#quantitative+data), [RDM](https://portage-ceg.github.io/tools-and-resources/#RDM), [research data licensing](https://portage-ceg.github.io/tools-and-resources/#research+data+licensing), [scholarly communications](https://portage-ceg.github.io/tools-and-resources/#scholarly+communications), [scholarly impact](https://portage-ceg.github.io/tools-and-resources/#scholarly+impact), [software licensing](https://portage-ceg.github.io/tools-and-resources/#research+data+licensing), [version control](https://portage-ceg.github.io/tools-and-resources/#version+control).
 
----> 
+--->
 
 ### References
 
