@@ -5,6 +5,7 @@ description: ""
 lang: fr
 ref: home
 ---
+<!---
 
 <table style="background-color: #ffff99;">
 <tbody>
@@ -18,6 +19,8 @@ ref: home
 </tr>
 </tbody>
 </table>
+
+--->
 
 
 **Voulez-vous fournir des commentaires sur ce site? Vous souhaitez aider à le développer?** Contactez-nous via [ce formulaire](https://forms.gle/4i3VmBK5o228P4pf6).
