@@ -5,7 +5,7 @@ resourceurl: https://dataoneorg.github.io/Education/
 categories: [planning,creating and analyzing,sharing,appraising,archiving and preserving,reusing]
 ref: dataone-data-management-skillbuilding-hub
 lang: en
-tags: [best practices,RDM,training,training course,training materials]
+tags: [best practices,RDM,training]
 readytopublish: YES
 date: 30/11/2020
 ---
