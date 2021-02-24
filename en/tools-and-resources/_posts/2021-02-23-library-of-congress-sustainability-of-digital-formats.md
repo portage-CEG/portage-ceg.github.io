@@ -2,7 +2,7 @@
 layout: post 
 title: Library of Congress Sustainability of Digital Formats
 resourceurl: https://www.loc.gov/preservation/digital/formats/fdd/browse_list.shtml
-categories: [archiving and preserving]
+categories: [archiving and preserving,reusing]
 ref: library-of-congress-sustainability-of-digital-formats
 lang: en
 tags: [file formats,preservation,reference]

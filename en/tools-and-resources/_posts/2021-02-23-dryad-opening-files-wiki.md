@@ -5,7 +5,7 @@ resourceurl: https://web.archive.org/web/20201202070622/http://wiki.datadryad.or
 categories: [archiving and preserving,reusing]
 ref: dryad-opening-files-wiki
 lang: en
-tags: [data reuse,file formats,reference]
+tags: [file formats,preservation,reference]
 readytopublish: YES
 date: 23/02/2021
 ---
