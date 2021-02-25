@@ -6,23 +6,16 @@ lang: en
 ref: questions
 ---
 
-<!---
-
 <table style="background-color: #ffff99;">
 <tbody>
 <tr>
 <td>
-<p><span>More about this page:</span></p>
-<p>This page will consist of a curated list of FAQs, generated from community submissions to th can-dcn Google Group (or CANLIB-DATA, etc.). </p>
-<p>If a user cannot find an answer to their question, they are prompted to submit to can-dcn </p>
-<p>(Eventually), curation officers will pull relevant questions from can-dcn (or CANLIB-DATA) list, populate a google doc with ALL curation-related questions asked, and Officers + CEG will select questions to be edited and shared as FAQs</p>
-<p>At some point, the questions will be categorized.</p>
+<p><b>This website is currently in a beta phase</b>. Though bilingual functionality exists, we are still working on translating all elements.</p>
+<p>If you would like to provide feedback or help build this resource, please see the link at the bottom for contact information.</p>
 </td>
 </tr>
 </tbody>
 </table>
-
---->
 
 These FAQs are based on questions submitted to the community.
 
