@@ -6,20 +6,16 @@ lang: en
 ref: resource
 ---
 
-<!---
-
 <table style="background-color: #ffff99;">
 <tbody>
 <tr>
 <td>
-<p><span>More about this page:</span></p>
-<p>Submissions go into a review workflow outlined <a href="https://github.com/portage-CEG/portage-ceg.github.io/blob/master/README.md">here</a>. </p>
+<p><b>This website is currently in a beta phase</b>. Though bilingual functionality exists, we are still working on translating all elements.</p>
+<p>If you would like to provide feedback or help build this resource, please see the link at the bottom for contact information.</p>
 </td>
 </tr>
 </tbody>
 </table>
-
---->
 
 If you'd like to contribute a resource or tool, perform the following steps:
 - Check the [previous form responses](http://bit.ly/DCSG-submissions) to ensure that your tool/resource has not been previously submitted.
