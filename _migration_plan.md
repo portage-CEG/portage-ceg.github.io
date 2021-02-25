@@ -12,3 +12,6 @@ Redirecting you to https://curation-commons.github.io
 <link rel="canonical" href="https://curation-commons.github.io">
 ``` 
 - See https://github.com/scds/scds-archive.github.io/edit/main/index.md as an example.
+
+6. Find/replace all hardcoded urls in markdown pages / config files
+7. Test  
