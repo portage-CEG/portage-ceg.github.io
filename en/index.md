@@ -5,21 +5,19 @@ description: "Curation resources and guidance by and for the community."
 lang: en
 ref: home
 ---
-<!---
+
 
 <table style="background-color: #ffff99;">
 <tbody>
 <tr>
 <td>
-<p><span>A note about this website:</span></p>
-<p>This website is in an early proof-of-concept (i.e. alpha release) state, and is being shared for the purposes of demonstrating functionality and soliciting feedback.</p>
-<p>Though bilingual functionality exists, most content has not been translated; should this initiative find support, it will be maintained as a bilingual resource.</p>
-<p>Please see the link at the bottom of this page if you would like to provide feedback or help support it.</p>
+<p><b>This website is currently in a beta phase</b>. Though bilingual functionality exists, we are still working on translating all elements.</p>
+<p>If you would like to provide feedback or help build this resource, please see the link at the bottom for contact information.</p>
 </td>
 </tr>
 </tbody>
 </table>
-
+<!---
 --->
 
 This website is a space for research data management and curation practitioners to share resources related to the practice of data curation. The content of these pages has been provided by the community and curated by members of the Portage Curation Expert Group.
