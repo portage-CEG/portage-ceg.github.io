@@ -5,21 +5,17 @@ description: "Guidance and resources for each stage of the data lifecycle."
 lang: en
 ref: lifecycle
 ---
-<!---
 
 <table style="background-color: #ffff99;">
 <tbody>
 <tr>
 <td>
-<p><span>More about this page:</span></p>
-<p>Each subpage in this section will contain detailed guidance on curation activities to support each broad stage of the research lifecycle. This content will be curated by site admins. </p>
-<p>In addition, each subpage will list all community-submitted resources that are tagged as relevant to the given stage (we think this will be done via the 'category' field on the Google Sheet of submissions).</p>
+<p><b>This website is currently in a beta phase</b>. Though bilingual functionality exists, we are still working on translating all elements.</p>
+<p>If you would like to provide feedback or help build this resource, please see the link at the bottom for contact information.</p>
 </td>
 </tr>
 </tbody>
 </table>
-
---->
 
 Guidance and resources presented on this page are organized by the following generalized research stages:
 * [Planning](planning) (study design, data management planning, research ethics application)
