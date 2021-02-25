@@ -6,20 +6,16 @@ lang: en
 ref: tools
 ---
 
-<!---
-
 <table style="background-color: #ffff99;">
 <tbody>
 <tr>
 <td>
-<p><span>More about this page:</span></p>
-<p>This page will list all submitted resources that have been reviewed and approved by site admins (workflow outlined <a href="https://github.com/portage-CEG/portage-ceg.github.io/blob/master/README.md">here</a>).</p>
+<p><b>This website is currently in a beta phase</b>. Though bilingual functionality exists, we are still working on translating all elements.</p>
+<p>If you would like to provide feedback or help build this resource, please see the link at the bottom for contact information.</p>
 </td>
 </tr>
 </tbody>
 </table>
-
---->
 
 **Want to add a resource to this list? Submit it [here]({% link en/tools-and-resources/submit-a-resource.md %}).**
 
