@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Submit a Resource
-description: "Suggest an addition to the [Tools & Resources page](/tools-and-resources)."
+description: "Suggest an addition to the Tools & Resources page."
 lang: en
 ref: resource
 ---
