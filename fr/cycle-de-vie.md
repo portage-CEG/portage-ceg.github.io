@@ -5,6 +5,7 @@ description: ""
 lang: fr
 ref: cycle-de-vie
 ---
+
 <table style="background-color: #ffff99;">
 <tbody>
 <tr>
