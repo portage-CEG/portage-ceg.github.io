@@ -24,7 +24,7 @@ ref: home
 Ce site Web est un espace qui permet aux praticiens de la gestion (GDR) et de la curation des données de recherche de partager des ressources liées à la pratique de la curation des données. La collectivité a fourni le contenu de ces pages et des membres du Groupe d'experts sur la curation des données de Portage l'ont organisé et entretenu.
 
 ## Premiers pas dans la curation des données
-Besoin d'atteindre une vitesse de croisière avec les rudiments de la curation des données?  Explorez la page [qu'est-ce que la curation de données]({% link fr/curation-de-donnees/ %}) et [le guide éclair]({% link fr/commencer.md %}) avec les ressources fondamentales à l'intention des nouveaux responsables d'intendance.
+Besoin d'atteindre une vitesse de croisière avec les rudiments de la curation des données?  Explorez la page [qu'est-ce que la curation de données]({% link fr/curation-de-donnees.md %}) et [le guide éclair]({% link fr/commencer.md %}) avec les ressources fondamentales à l'intention des nouveaux responsables d'intendance.
 
 ## Directives fondées sur le cycle de vie
 [Conseils et ressources]({% link fr/cycle-de-vie.md %}) approfondis à l'intention des responsables d'intendance de données pour appuyer les divers stades de la recherche.
