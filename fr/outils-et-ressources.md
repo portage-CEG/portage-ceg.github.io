@@ -25,7 +25,6 @@ Vous pouvez trouver des ressources en utilisant deux méthodes :
 * [Recherche de ressources](#recherche-de-ressources)
 * [Parcourir les ressources par mot-clé](#parcourir-les-ressources-par-mot-clé)
 
-<!---
 
 ## Recherche de ressources
 <form id="site_search">
@@ -46,7 +45,7 @@ Vous pouvez trouver des ressources en utilisant deux méthodes :
 
 <!--- The code below generates the list of tags present in all of the posts. Need to find a way to only display tags associated with French posts --->
 
-<!--- This first chunk of code has to go all together (rather than on separate lines) because it is a capture block
+<!--- This first chunk of code has to go all together (rather than on separate lines) because it is a capture block --->
 {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
 
 {% assign tag_words = site_tags | split:',' | sort %}
@@ -58,7 +57,7 @@ Vous pouvez trouver des ressources en utilisant deux méthodes :
   {% endfor %}
   </ul>
 
-<!--- The code below generates the list of posts based on an alphabetical list of tags. Need to find a way to only display tags associated with French posts
+<!--- The code below generates the list of posts based on an alphabetical list of tags. Need to find a way to only display tags associated with French posts --->
 
   {% for item in (0..site.tags.size) %}{% unless forloop.last %}
 	{% capture this_word %}{{ tag_words[item] | strip_newlines }}{% endcapture %}
@@ -74,5 +73,3 @@ Vous pouvez trouver des ressources en utilisant deux méthodes :
   </ul>
   {% endunless %}{% endfor %}
 </div>
-
---->
