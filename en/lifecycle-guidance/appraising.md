@@ -8,7 +8,7 @@ ref: appraising
 
 *(data assessment, evaluation, review)*
 
-In this stage of the lifecycle, a data deposit is reviewed for completeness and compliance with a repository’s terms of use, and the overall FAIRness of the deposit may be assessed. A curator may work with the research team to enhance the usability and accessibility of the dataset. The Data Curation Network's [CURATED checklist](https://datacurationnetwork.org/resources/) is one framework that will guide a curator through the curation process. Steps include checking and understanding the data files and associated documentation, requesting missing information, augmenting metadata for findability, transforming files if necessary, evaluating the FAIRness of a deposit, and documenting all curation activities.
+In this stage of the lifecycle, a data deposit is reviewed for completeness and compliance with a repository’s terms of use, and the overall FAIRness of the deposit may be assessed. A curator may work with the research team to enhance the usability and accessibility of the dataset. The Data Curation Network's [CURATED checklist](https://datacurationnetwork.org/outputs/workflows/) is one framework that will guide a curator through the curation process. Steps include checking and understanding the data files and associated documentation, requesting missing information, augmenting metadata for findability, transforming files if necessary, evaluating the FAIRness of a deposit, and documenting all curation activities.
 
 Some of the tasks a curator may perform:
 - Check datasets for compliance with the repository terms of service

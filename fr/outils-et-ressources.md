@@ -6,9 +6,41 @@ lang: fr
 ref: tools
 ---
 
-**Vous souhaitez ajouter une ressource à cette liste? Soumettez-le [ici]({% link fr/outils-et-ressources/soumettre-une-ressource.md %}).**
+<table style="background-color: #ffff99;">
+<tbody>
+<tr>
+<td>
+<p><b>Ce site Web est à l’état de validation de principe précoce (c.‑à‑d. version beta).</b>. Bien que la fonctionnalité bilingue existe, la majeure partie du contenu reste sans traduction.</p>
+<p>Désirez-vous soumettre des commentaires sur ce site? Souhaitez-vous contribuer à son élaboration? Contactez-nous via le formulaire ci-dessous.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
-## Browse by keyword
+**Vous souhaitez ajouter une ressource à cette liste? Soumettez-la [ici]({% link fr/outils-et-ressources/soumettre-une-ressource.md %}).**
+
+Des membres des collectivités nationales de curation et de gestion des données ont contribué les ressources suivantes, qu’ont aussi examinées le Groupe d’experts sur la curation des données de Portage. Les ressources sont organisées par mot-clé.
+
+Vous pouvez trouver des ressources en utilisant deux méthodes :
+* [Recherche de ressources](#recherche-de-ressources)
+* [Parcourir les ressources par mot-clé](#parcourir-les-ressources-par-mot-clé)
+
+## Recherche de ressources
+<form id="site_search">
+
+<p>Searches all content and tags:
+<input id="search" type="text"/></p></form>
+
+<hr>
+
+<div id="results"></div>
+<ul id="search_results"></ul>
+<script src="{{site.baseurl}}/js/elasticlunr.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="{{site.baseurl}}/js/search.js"></script>
+
+
+## Parcourir les ressources par mot-clé
 
 <!--- The code below generates the list of tags present in all of the posts. Need to find a way to only display tags associated with French posts --->
 
