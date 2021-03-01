@@ -48,8 +48,6 @@ You can find resources using two methods:
 
 {% assign tag_words = site_tags | split:',' | sort %}
 
-
-
 <div id="tags">
   <ul class="tags">
   {% for tag in tag_words %}

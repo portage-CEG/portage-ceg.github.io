@@ -59,8 +59,7 @@ Vous pouvez trouver des ressources en utilisant deux méthodes :
 <!--- The code below generates the list of posts based on an alphabetical list of tags. Need to find a way to only display tags associated with French posts --->
 
   {% for item in (0..site.tags.size) %}{% unless forloop.last %}
-  {% capture this_word %}{{ tag_words[item] | strip_newlines }}{% endcapture %}
-
+	{% capture this_word %}{{ tag_words[item] | strip_newlines }}{% endcapture %}
   <h3 id="{{ this_word | cgi_escape }}">{{ this_word }}</h3>
   <ul class="posts">
     {% for post in site.tags[this_word] %}
