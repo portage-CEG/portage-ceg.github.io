@@ -10,7 +10,7 @@ ref: tools
 <tbody>
 <tr>
 <td>
-<p><b>Ce site Web est à l’état de validation de principe précoce (c.-à-d. version beta).</b>. Bien que la fonctionnalité bilingue existe, la majeure partie du contenu reste sans traduction.</p>
+<p><b>Ce site Web est à l'état de validation de principe précoce (c.-à-d. version beta).</b>. Bien que la fonctionnalité bilingue existe, la majeure partie du contenu reste sans traduction.</p>
 <p>Désirez-vous soumettre des commentaires sur ce site? Souhaitez-vous contribuer à son élaboration? Contactez-nous via le formulaire ci-dessous.</p>
 </td>
 </tr>
@@ -19,7 +19,7 @@ ref: tools
 
 **Vous souhaitez ajouter une ressource à cette liste? Soumettez-la [ici]({% link fr/outils-et-ressources/soumettre-une-ressource.md %}).**
 
-Des membres des collectivités nationales de curation et de gestion des données ont contribué les ressources suivantes, qu’ont aussi examinées le Groupe d’experts sur la curation des données de Portage. Les ressources sont organisées par mot-clé.
+Des membres des collectivités nationales de curation et de gestion des données ont contribué les ressources suivantes, qu'ont aussi examinées le Groupe d'experts sur la curation des données de Portage. Les ressources sont organisées par mot-clé.
 
 Vous pouvez trouver des ressources en utilisant deux méthodes :
 * [Recherche de ressources](#recherche-de-ressources)
