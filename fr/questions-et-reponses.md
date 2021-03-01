@@ -10,7 +10,7 @@ ref: questions
 <tbody>
 <tr>
 <td>
-<p><b>Ce site Web est à l’état de validation de principe précoce (c.‑à‑d. version beta).</b>. Bien que la fonctionnalité bilingue existe, la majeure partie du contenu reste sans traduction.</p>
+<p><b>Ce site Web est à l’état de validation de principe précoce (c.-à-d. version beta).</b>. Bien que la fonctionnalité bilingue existe, la majeure partie du contenu reste sans traduction.</p>
 <p>Désirez-vous soumettre des commentaires sur ce site? Souhaitez-vous contribuer à son élaboration? Contactez-nous via le formulaire ci-dessous.</p>
 </td>
 </tr>
