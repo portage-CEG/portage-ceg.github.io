@@ -32,4 +32,4 @@ Envoyez vos questions au Réseau canadien de curation des données par l'entremi
 
 **Q : Les licences Creative Commons sont-elles appropriées pour les logiciels?**
 * L'organisation Creative Commons (CC) [aborde cette question dans sa FAQ](https://creativecommons.org/faq/fr/#puis-je-appliquer-une-licence-creative-commons-à-un-logiciel) et déconseille l'utilisation d'une licence CC pour les logiciels. Les licences CC ne traitent pas explicitement de la distribution du code source ou des droits de brevet, et sont généralement incompatibles avec de nombreuses licences logicielles existantes. 
-* [L'Open Source Initiative](https://opensource.org) tient à jour une [liste des licences de source ouverte](https://opensource.org/licenses) appropriées pour les logiciels, qui ont fait l'objet d'un 'processus d'examen des licences'
+* [L'Open Source Initiative](https://opensource.org) tient à jour une [liste des licences de source ouverte](https://opensource.org/licenses) appropriées pour les logiciels, qui ont fait l'objet d'un « processus d'examen des licences »
