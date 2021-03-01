@@ -3,7 +3,7 @@ layout: page
 title: Planification
 description: ""
 lang: fr
-ref: planification
+ref: planning
 ---
 <ul>
   {% assign postlang = site.data.navigation.languages %}

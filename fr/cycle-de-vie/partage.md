@@ -3,7 +3,7 @@ layout: page
 title: Partage
 description: ""
 lang: fr
-ref: partage
+ref: sharing
 ---
 <ul>
   {% assign postlang = site.data.navigation.languages %}

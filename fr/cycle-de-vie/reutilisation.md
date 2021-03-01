@@ -3,7 +3,7 @@ layout: page
 title: Réutilisation
 description: ""
 lang: fr
-ref: reutilisation
+ref: reusing
 ---
 <ul>
 {% assign postlang = site.data.navigation.languages %}

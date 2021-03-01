@@ -3,7 +3,7 @@ layout: page
 title: Archivage et préservation
 description: ""
 lang: fr
-ref: archivage-et-preservation
+ref: archiving-preserving
 ---
 <ul>
   {% assign postlang = site.data.navigation.languages %}

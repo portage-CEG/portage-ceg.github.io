@@ -3,7 +3,7 @@ layout: page
 title: Création et analyse
 description: ""
 lang: fr
-ref: creation-et-analyse
+ref: creating-analyzing
 ---
 <ul>
   {% assign postlang = site.data.navigation.languages %}

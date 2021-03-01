@@ -3,7 +3,7 @@ layout: page
 title: Évaluation
 description: ""
 lang: fr
-ref: evaluation
+ref: appraising
 ---
 <ul>
   {% assign postlang = site.data.navigation.languages %}
