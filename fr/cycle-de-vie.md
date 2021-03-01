@@ -3,7 +3,7 @@ layout: page
 title: Directives fondées sur le cycle de vie
 description: ""
 lang: fr
-ref: cycle-de-vie
+ref: lifecycle
 ---
 
 <table style="background-color: #ffff99;">

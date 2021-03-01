@@ -3,7 +3,7 @@ layout: page
 title: Qu'est-ce que la curation de données?
 description: ""
 lang: fr
-ref: curation-de-donnees
+ref: data-curation
 ---
 
 <table style="background-color: #ffff99;">

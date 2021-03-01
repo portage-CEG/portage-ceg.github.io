@@ -3,7 +3,7 @@ layout: page
 title: Soumettre une ressource
 description: ""
 lang: fr
-ref: ressource
+ref: resource
 ---
 
 <table style="background-color: #ffff99;">
